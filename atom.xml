@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-08T03:17:28.000Z</updated>
+  <updated>2016-07-08T13:51:40.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用npm Babel 6 Webpack 搭建React.js环境</title>
+    <link href="http://yoursite.com/2016/07/08/setting-up-react-demo/"/>
+    <id>http://yoursite.com/2016/07/08/setting-up-react-demo/</id>
+    <published>2016-07-08T13:45:49.000Z</published>
+    <updated>2016-07-08T13:51:40.000Z</updated>
+    
+    <content type="html">&lt;p&gt;FaceBook用React来改变了我们所认为的前端 UI开发，最主要的优点就是组件&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;FaceBook用React来改变了我们所认为的前端 UI开发，最主要的优点就是组件&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>一些好的网站</title>
