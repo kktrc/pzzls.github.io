@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/06/08/hello-world/</loc>
+    
+    <lastmod>2016-07-10T06:01:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/07/10/install-shadowsocks/</loc>
     
     <lastmod>2016-07-10T05:36:17.000Z</lastmod>
@@ -9,7 +16,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/07/08/setting-up-react-demo/</loc>
+    <loc>http://yoursite.com/2016/07/08/setting-up-react/</loc>
     
     <lastmod>2016-07-10T05:33:24.000Z</lastmod>
     
@@ -19,13 +26,6 @@
     <loc>http://yoursite.com/2016/07/08/website/</loc>
     
     <lastmod>2016-07-10T05:32:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/06/08/hello-world/</loc>
-    
-    <lastmod>2016-07-08T03:17:44.000Z</lastmod>
     
   </url>
   
