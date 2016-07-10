@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-08T13:51:40.000Z</updated>
+  <updated>2016-07-10T05:36:17.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>安装shadowsocks</title>
+    <link href="http://yoursite.com/2016/07/10/install-shadowsocks/"/>
+    <id>http://yoursite.com/2016/07/10/install-shadowsocks/</id>
+    <published>2016-07-10T05:35:23.000Z</published>
+    <updated>2016-07-10T05:36:17.000Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="shadowsocks" scheme="http://yoursite.com/tags/shadowsocks/"/>
+    
+  </entry>
+  
+  <entry>
     <title>使用npm Babel 6 Webpack 搭建React.js环境</title>
     <link href="http://yoursite.com/2016/07/08/setting-up-react-demo/"/>
     <id>http://yoursite.com/2016/07/08/setting-up-react-demo/</id>
     <published>2016-07-08T13:45:49.000Z</published>
-    <updated>2016-07-08T13:51:40.000Z</updated>
+    <updated>2016-07-10T05:33:24.000Z</updated>
     
     <content type="html">&lt;p&gt;FaceBook用React来改变了我们所认为的前端 UI开发，最主要的优点就是组件&lt;/p&gt;
 </content>
@@ -33,6 +51,8 @@
     </summary>
     
     
+      <category term="react" scheme="http://yoursite.com/tags/react/"/>
+    
   </entry>
   
   <entry>
@@ -40,7 +60,7 @@
     <link href="http://yoursite.com/2016/07/08/website/"/>
     <id>http://yoursite.com/2016/07/08/website/</id>
     <published>2016-07-08T03:02:13.000Z</published>
-    <updated>2016-07-08T03:17:28.000Z</updated>
+    <updated>2016-07-10T05:32:23.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;social&quot;&gt;&lt;a href=&quot;#social&quot; class=&quot;headerlink&quot; title=&quot;social&quot;&gt;&lt;/a&gt;social&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.github.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
@@ -77,6 +97,7 @@
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.patrickbalestra.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;BalestraPatrick&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/onevcat&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Onevcat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://idlelife.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;idlelife&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     
