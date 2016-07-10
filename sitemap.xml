@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2016-07-10T07:02:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/07/10/ruby-environment-setup/</loc>
     
     <lastmod>2016-07-10T06:52:59.000Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://yoursite.com/2016/07/08/website/</loc>
     
     <lastmod>2016-07-10T05:32:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2016-07-08T03:15:50.000Z</lastmod>
     
   </url>
   
