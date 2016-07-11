@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-10T13:55:00.000Z</updated>
+  <updated>2016-07-11T04:28:36.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,11 +20,27 @@
     <link href="http://yoursite.com/2016/07/10/LightSword-setup/"/>
     <id>http://yoursite.com/2016/07/10/LightSword-setup/</id>
     <published>2016-07-10T13:54:20.000Z</published>
-    <updated>2016-07-10T13:55:00.000Z</updated>
+    <updated>2016-07-11T04:28:36.000Z</updated>
     
-    <content type="html"></content>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;LightSword&lt;/li&gt;
+&lt;li&gt;安装&lt;/li&gt;
+&lt;li&gt;使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;LightSword&quot;&gt;&lt;a href=&quot;#LightSword&quot; class=&quot;headerlink&quot; title=&quot;LightSword&quot;&gt;&lt;/a&gt;LightSword&lt;/h3&gt;&lt;p&gt;LightSword是&lt;a href=&quot;https://github.com/UnsignedInt8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UnsignedInt8&lt;/a&gt;写的一个socks5代理，其实跟shadowsocks差不多，参考了shadowsocks的协议，用nodejs写的。可以直接上github上面看，&lt;a href=&quot;https://github.com/UnsignedInt8/LightSword&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LightSword&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm install lightsword -g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;服务器端:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	lsserver -f&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;客户端:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	lslocal -s server_addr -f&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;中转站:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	lsbridge -s server_addr -f&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;然后设置本地电脑的socks5代理指向localhost:1080即可&lt;/p&gt;
+</content>
     
     <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;LightSword&lt;/li&gt;
+&lt;li&gt;安装&lt;/li&gt;
+&lt;li&gt;使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;LightSword&quot;&gt;&lt;a href=&quot;#LightSword&quot; class=&quot;headerlink&quot; title=&quot;LightSword&quot;&gt;&lt;/a&gt;L
     
     </summary>
     
