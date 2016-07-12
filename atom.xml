@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-12T06:15:45.000Z</updated>
+  <updated>2016-07-12T22:28:38.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cocoapods简单集成项目</title>
+    <link href="http://yoursite.com/2016/07/13/cocoapods-setup/"/>
+    <id>http://yoursite.com/2016/07/13/cocoapods-setup/</id>
+    <published>2016-07-12T22:28:16.000Z</published>
+    <updated>2016-07-12T22:28:38.000Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>简单谈谈webpack</title>
@@ -217,7 +233,7 @@
     <link href="http://yoursite.com/2016/07/08/website/"/>
     <id>http://yoursite.com/2016/07/08/website/</id>
     <published>2016-07-08T03:02:13.000Z</published>
-    <updated>2016-07-11T05:35:57.000Z</updated>
+    <updated>2016-07-12T06:55:36.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;social&quot;&gt;&lt;a href=&quot;#social&quot; class=&quot;headerlink&quot; title=&quot;social&quot;&gt;&lt;/a&gt;social&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.github.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
@@ -232,9 +248,10 @@
 &lt;h2 id=&quot;fontend&quot;&gt;&lt;a href=&quot;#fontend&quot; class=&quot;headerlink&quot; title=&quot;fontend&quot;&gt;&lt;/a&gt;fontend&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://imququ.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;imququ&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://pinggod.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;pinggod&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;swift&quot;&gt;&lt;a href=&quot;#swift&quot; class=&quot;headerlink&quot; title=&quot;swift&quot;&gt;&lt;/a&gt;swift&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://mhorga.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;mhorga&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://div.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;div.io&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;swift&quot;&gt;&lt;a href=&quot;#swift&quot; class=&quot;headerlink&quot; title=&quot;swift&quot;&gt;&lt;/a&gt;swift&lt;/h2&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mhorga.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;mhorga&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.raywenderlich.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;raywenderlich&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;react-native&quot;&gt;&lt;a href=&quot;#react-native&quot; class=&quot;headerlink&quot; title=&quot;react native&quot;&gt;&lt;/a&gt;react native&lt;/h2&gt;&lt;ul&gt;
