@@ -70,14 +70,26 @@
     <link href="http://yoursite.com/2016/07/11/nginx-proxy-netwotk/"/>
     <id>http://yoursite.com/2016/07/11/nginx-proxy-netwotk/</id>
     <published>2016-07-11T06:03:55.000Z</published>
-    <updated>2016-07-11T06:04:28.000Z</updated>
+    <updated>2016-07-14T09:21:24.000Z</updated>
     
-    <content type="html"></content>
+    <content type="html">&lt;h3 id=&quot;Nginx-做http代理&quot;&gt;&lt;a href=&quot;#Nginx-做http代理&quot; class=&quot;headerlink&quot; title=&quot;Nginx 做http代理&quot;&gt;&lt;/a&gt;Nginx 做http代理&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;编辑/etc/nginx/nginx.conf&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;server&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       listen          80;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       server_name     bhond.com; //本地访问域名&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       location / &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               proxy_pass              http://www.t66y.com; //你懂的&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               proxy_redirect          off;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               proxy_set_header        X-Real-IP       $remote_addr;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;nginx的一些基本命令&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;nginx -t // 测试配置文件是否有语法错误&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;nginx -s reload //重新加载nginx 配置文件&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;参考网站&quot;&gt;&lt;a href=&quot;#参考网站&quot; class=&quot;headerlink&quot; title=&quot;参考网站&quot;&gt;&lt;/a&gt;参考网站&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/d5114a2a2052&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Centos下 Nginx安装与配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zjian.me/centos/nginx反向代理google/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;nginx反向代理google&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     
     <summary type="html">
     
+      &lt;h3 id=&quot;Nginx-做http代理&quot;&gt;&lt;a href=&quot;#Nginx-做http代理&quot; class=&quot;headerlink&quot; title=&quot;Nginx 做http代理&quot;&gt;&lt;/a&gt;Nginx 做http代理&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;编辑/etc/nginx/nginx
+    
     </summary>
     
+    
+      <category term="nginx" scheme="http://yoursite.com/tags/nginx/"/>
     
   </entry>
   
