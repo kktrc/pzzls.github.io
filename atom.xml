@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-14T02:02:09.000Z</updated>
+  <updated>2016-07-14T13:59:23.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,11 +20,28 @@
     <link href="http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/"/>
     <id>http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/</id>
     <published>2016-07-14T02:01:06.000Z</published>
-    <updated>2016-07-14T02:02:09.000Z</updated>
+    <updated>2016-07-14T13:59:23.000Z</updated>
     
-    <content type="html"></content>
+    <content type="html">&lt;p&gt;ios中用得最多的就是UITableView，现在写界面基本上都会遇到，而自定义UITableViewCell更是家常便饭，那我们怎么去复用和使用自定义UITableViewCell呢，storyboard就不说了。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;registerNib&lt;/li&gt;
+&lt;li&gt;registerClass&lt;/li&gt;
+&lt;li&gt;不注册，直接加载Nib，去数组的第1哥元素&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;registerNib&quot;&gt;&lt;a href=&quot;#registerNib&quot; class=&quot;headerlink&quot; title=&quot;registerNib&quot;&gt;&lt;/a&gt;registerNib&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[_tableView registerNib:[UINib nibWithNibName:@&amp;quot;xxxxxCell&amp;quot; bundle:nil] forCellReuseIdentifier:kCellIdentify];&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;registerClass&quot;&gt;&lt;a href=&quot;#registerClass&quot; class=&quot;headerlink&quot; title=&quot;registerClass&quot;&gt;&lt;/a&gt;registerClass&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[_tableView registerClass:[xxxxxCell class] forCellReuseIdentifier:kCellIdentify];&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;直接加载&quot;&gt;&lt;a href=&quot;#直接加载&quot; class=&quot;headerlink&quot; title=&quot;直接加载&quot;&gt;&lt;/a&gt;直接加载&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;NAAyyay * array = [[NSBundle mainBundle] loadNibNamed:@&amp;quot;MyXibFileName&amp;quot; owner:self];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;UITableViewCell *cell = array[0];&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;参考网站&quot;&gt;&lt;a href=&quot;#参考网站&quot; class=&quot;headerlink&quot; title=&quot;参考网站&quot;&gt;&lt;/a&gt;参考网站&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/7354377/how-to-load-nib-into-view&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;how-to-load-nib-into-view&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/youngsblog/article/details/44536143&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;自定义UITableViewCell（registerNib: 与 registerClass: 的区别）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     
     <summary type="html">
+    
+      &lt;p&gt;ios中用得最多的就是UITableView，现在写界面基本上都会遇到，而自定义UITableViewCell更是家常便饭，那我们怎么去复用和使用自定义UITableViewCell呢，storyboard就不说了。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;registerNib&lt;/li
     
     </summary>
     
@@ -215,7 +232,7 @@
     <link href="http://yoursite.com/2016/07/10/install-shadowsocks/"/>
     <id>http://yoursite.com/2016/07/10/install-shadowsocks/</id>
     <published>2016-07-10T05:35:23.000Z</published>
-    <updated>2016-07-10T06:38:53.000Z</updated>
+    <updated>2016-07-14T13:47:59.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
