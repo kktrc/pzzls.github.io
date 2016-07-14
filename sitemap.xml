@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/</loc>
+    
+    <lastmod>2016-07-14T02:02:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/07/13/cocoapods-setup/</loc>
     
     <lastmod>2016-07-12T22:28:38.000Z</lastmod>
