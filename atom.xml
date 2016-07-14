@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-14T13:59:23.000Z</updated>
+  <updated>2016-07-14T16:16:33.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,42 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>UITableView 显示进度条</title>
+    <link href="http://yoursite.com/2016/07/15/UITableView-ProgressView/"/>
+    <id>http://yoursite.com/2016/07/15/UITableView-ProgressView/</id>
+    <published>2016-07-14T16:08:15.000Z</published>
+    <updated>2016-07-14T16:16:33.000Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;UITableView-显示进度条&quot;&gt;&lt;a href=&quot;#UITableView-显示进度条&quot; class=&quot;headerlink&quot; title=&quot;UITableView 显示进度条&quot;&gt;&lt;/a&gt;UITableView 显示进度条&lt;/h3&gt;&lt;h3 id=&quot;参考网站&quot;&gt;&lt;a href=&quot;#参考网站&quot; class=&quot;headerlink&quot; title=&quot;参考网站&quot;&gt;&lt;/a&gt;参考网站&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://iaiai.iteye.com/blog/2176287&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UIWebView 进度条控件 NJKWebViewProgress的使用和分析&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;每日一Linux命令&quot;&gt;&lt;a href=&quot;#每日一Linux命令&quot; class=&quot;headerlink&quot; title=&quot;每日一Linux命令&quot;&gt;&lt;/a&gt;每日一Linux命令&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;scp&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;**scp**&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;每日一Github&quot;&gt;&lt;a href=&quot;#每日一Github&quot; class=&quot;headerlink&quot; title=&quot;每日一Github&quot;&gt;&lt;/a&gt;每日一Github&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/samsoffes/sskeychain&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;sskeychain&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;UITableView-显示进度条&quot;&gt;&lt;a href=&quot;#UITableView-显示进度条&quot; class=&quot;headerlink&quot; title=&quot;UITableView 显示进度条&quot;&gt;&lt;/a&gt;UITableView 显示进度条&lt;/h3&gt;&lt;h3 id=&quot;参考网站&quot;
+    
+    </summary>
+    
+    
+      <category term="uitableView" scheme="http://yoursite.com/tags/uitableView/"/>
+    
+  </entry>
+  
+  <entry>
     <title>registerNib 和 registerClass 在UITableView中的复用</title>
     <link href="http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/"/>
     <id>http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/</id>
     <published>2016-07-14T02:01:06.000Z</published>
-    <updated>2016-07-14T13:59:23.000Z</updated>
+    <updated>2016-07-14T15:25:01.000Z</updated>
     
     <content type="html">&lt;p&gt;ios中用得最多的就是UITableView，现在写界面基本上都会遇到，而自定义UITableViewCell更是家常便饭，那我们怎么去复用和使用自定义UITableViewCell呢，storyboard就不说了。&lt;/p&gt;
 &lt;ul&gt;
@@ -34,6 +65,7 @@
 &lt;h3 id=&quot;参考网站&quot;&gt;&lt;a href=&quot;#参考网站&quot; class=&quot;headerlink&quot; title=&quot;参考网站&quot;&gt;&lt;/a&gt;参考网站&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/7354377/how-to-load-nib-into-view&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;how-to-load-nib-into-view&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/youngsblog/article/details/44536143&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;自定义UITableViewCell（registerNib: 与 registerClass: 的区别）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://itfish.net/article/24224.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;自定义UITableViewCell（registerNib: 与 registerClass: 的区别&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     
@@ -232,7 +264,7 @@
     <link href="http://yoursite.com/2016/07/10/install-shadowsocks/"/>
     <id>http://yoursite.com/2016/07/10/install-shadowsocks/</id>
     <published>2016-07-10T05:35:23.000Z</published>
-    <updated>2016-07-14T13:47:59.000Z</updated>
+    <updated>2016-07-14T16:09:40.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
