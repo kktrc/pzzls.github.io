@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-15T02:53:49.000Z</updated>
+  <updated>2016-07-15T03:08:08.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,76 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>那些著名或非著名的iOS面试题（3）</title>
+    <link href="http://yoursite.com/2016/07/15/interview-3/"/>
+    <id>http://yoursite.com/2016/07/15/interview-3/</id>
+    <published>2016-07-15T03:04:02.000Z</published>
+    <updated>2016-07-15T03:08:08.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;strong&gt;取自&lt;a href=&quot;http://www.codeceo.com/article/ios-interview-3.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;那些著名或非著名的iOS面试题（下）&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1.Runtime&lt;/li&gt;
+&lt;li&gt;2.GCD实现1，2并行和3串行和45串行，4，5是并行。即3依赖1，2的执行，45依赖3的执行&lt;/li&gt;
+&lt;li&gt;3.深浅复制和属性为copy，strong值的变化问题&lt;/li&gt;
+&lt;li&gt;4.NSTimer创建后，会在哪个线程运行&lt;/li&gt;
+&lt;li&gt;5.KVO，NSNotification，delegate及block区别&lt;/li&gt;
+&lt;li&gt;6.如何让计时器调用一个类方法&lt;/li&gt;
+&lt;li&gt;7.调用一个类的静态方法需不需要release？&lt;/li&gt;
+&lt;li&gt;8.static作用？&lt;/li&gt;
+&lt;li&gt;9.NSObject的load和initialize方法&lt;/li&gt;
+&lt;li&gt;10.能否向编译后得到的类中增加实例变量？能否向运行时创建的类中添加实例变量？为什么？&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;取自&lt;a href=&quot;http://www.codeceo.com/article/ios-interview-3.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;那些著名或非著名的iOS面试题（下）&lt;/a&gt;&lt;/strong&gt;&lt;/p
+    
+    </summary>
+    
+    
+      <category term="ios interview" scheme="http://yoursite.com/tags/ios-interview/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>那些著名或非著名的iOS面试题（2）</title>
+    <link href="http://yoursite.com/2016/07/15/interview-2/"/>
+    <id>http://yoursite.com/2016/07/15/interview-2/</id>
+    <published>2016-07-15T02:59:00.000Z</published>
+    <updated>2016-07-15T03:02:43.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;strong&gt;取自&lt;a href=&quot;http://www.codeceo.com/article/ios-interview-2.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;那些著名或非著名的iOS面试题（2）&lt;/a&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1.反转二叉树，不用递归&lt;/li&gt;
+&lt;li&gt;2.写一个单例模式&lt;/li&gt;
+&lt;li&gt;3.iOS应用生命周期&lt;/li&gt;
+&lt;li&gt;4.一工人给老板打7天工要求一块金条 这金条只能切2次 工人每天要1/7金条 怎么分?&lt;/li&gt;
+&lt;li&gt;5.iOS中socket使用&lt;/li&gt;
+&lt;li&gt;6.网络请求中post和get的区别&lt;/li&gt;
+&lt;li&gt;7.时间复杂度和空间复杂度&lt;/li&gt;
+&lt;li&gt;8.支付宝SDK使用&lt;/li&gt;
+&lt;li&gt;9.远程推送&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;取自&lt;a href=&quot;http://www.codeceo.com/article/ios-interview-2.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;那些著名或非著名的iOS面试题（2）&lt;/a&gt; &lt;/strong&gt;&lt;/
+    
+    </summary>
+    
+    
+      <category term="interview ios" scheme="http://yoursite.com/tags/interview-ios/"/>
+    
+  </entry>
+  
+  <entry>
     <title>那些著名或非著名的iOS面试题（1）</title>
     <link href="http://yoursite.com/2016/07/15/review-1/"/>
     <id>http://yoursite.com/2016/07/15/review-1/</id>
     <published>2016-07-15T02:36:49.000Z</published>
-    <updated>2016-07-15T02:53:49.000Z</updated>
+    <updated>2016-07-15T02:55:38.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;想不到这么快就要开始找工作了，生活不易啊，人艰不拆&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;以前找工作看书啊，看东西都是很马虎，或者蜻蜓点水。然后面试的时候才发现一问三不知，原因就是没有对问题有深刻的理解，这是面试大忌啊，因此趁着这次机会，有时间可以好好的准备一下，也正好复习一下ios基础知识。&lt;/p&gt;
@@ -38,7 +103,8 @@
 &lt;li&gt;10.请分析下SDWebImage的原理&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;1如何追踪app崩溃率，如何解决线上闪退&quot;&gt;&lt;a href=&quot;#1如何追踪app崩溃率，如何解决线上闪退&quot; class=&quot;headerlink&quot; title=&quot;1如何追踪app崩溃率，如何解决线上闪退&quot;&gt;&lt;/a&gt;&lt;strong&gt;1如何追踪app崩溃率，如何解决线上闪退&lt;/strong&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;我的理解：&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;2-什么是事件响应链，点击屏幕时是如何互动的，事件的传递。&quot;&gt;&lt;a href=&quot;#2-什么是事件响应链，点击屏幕时是如何互动的，事件的传递。&quot; class=&quot;headerlink&quot; title=&quot;2.什么是事件响应链，点击屏幕时是如何互动的，事件的传递。&quot;&gt;&lt;/a&gt;&lt;strong&gt;2.什么是事件响应链，点击屏幕时是如何互动的，事件的传递。&lt;/strong&gt;&lt;/h3&gt;&lt;h3 id=&quot;3-Run-Loop是什么，使用的目的，何时使用和关注点。&quot;&gt;&lt;a href=&quot;#3-Run-Loop是什么，使用的目的，何时使用和关注点。&quot; class=&quot;headerlink&quot; title=&quot;3.Run Loop是什么，使用的目的，何时使用和关注点。&quot;&gt;&lt;/a&gt;&lt;strong&gt;3.Run Loop是什么，使用的目的，何时使用和关注点。&lt;/strong&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;我的理解：&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;2-什么是事件响应链，点击屏幕时是如何互动的，事件的传递。&quot;&gt;&lt;a href=&quot;#2-什么是事件响应链，点击屏幕时是如何互动的，事件的传递。&quot; class=&quot;headerlink&quot; title=&quot;2.什么是事件响应链，点击屏幕时是如何互动的，事件的传递。&quot;&gt;&lt;/a&gt;&lt;strong&gt;2.什么是事件响应链，点击屏幕时是如何互动的，事件的传递。&lt;/strong&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;我的理解：&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;3-Run-Loop是什么，使用的目的，何时使用和关注点。&quot;&gt;&lt;a href=&quot;#3-Run-Loop是什么，使用的目的，何时使用和关注点。&quot; class=&quot;headerlink&quot; title=&quot;3.Run Loop是什么，使用的目的，何时使用和关注点。&quot;&gt;&lt;/a&gt;&lt;strong&gt;3.Run Loop是什么，使用的目的，何时使用和关注点。&lt;/strong&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;我的理解：&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;Run Loop是一让线程能随时处理事件但不退出的机制。RunLoop 实际上是一个对象，这个对象管理了其需要处理的事件和消息，并提供了一个入口函数来执行Event Loop 的逻辑。线程执行了这个函数后，就会一直处于这个函数内部 “接受消息-&amp;gt;等待-&amp;gt;处理” 的循环中，直到这个循环结束（比如传入 quit 的消息），函数返回。让线程在没有处理消息时休眠以避免资源占用、在有消息到来时立刻被唤醒。&lt;/p&gt;
 &lt;p&gt;OSX/iOS 系统中，提供了两个这样的对象：NSRunLoop 和 CFRunLoopRef。CFRunLoopRef 是在 CoreFoundation 框架内的，它提供了纯 C 函数的 API，所有这些 API 都是线程安全的。NSRunLoop 是基于 CFRunLoopRef 的封装，提供了面向对象的 API，但是这些 API 不是线程安全的。&lt;/p&gt;
 &lt;p&gt;线程和 RunLoop 之间是一一对应的，其关系是保存在一个全局的 Dictionary 里。线程刚创建时并没有 RunLoop，如果你不主动获取，那它一直都不会有。RunLoop 的创建是发生在第一次获取时，RunLoop 的销毁是发生在线程结束时。你只能在一个线程的内部获取其 RunLoop（主线程除外）。&lt;/p&gt;
