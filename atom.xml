@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-15T03:08:08.000Z</updated>
+  <updated>2016-07-15T09:21:21.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,64 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Swifter 一款看Swift的小型App</title>
+    <link href="http://yoursite.com/2016/07/15/Swifter-App/"/>
+    <id>http://yoursite.com/2016/07/15/Swifter-App/</id>
+    <published>2016-07-15T06:55:44.000Z</published>
+    <updated>2016-07-15T09:21:21.000Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;为了温习swift的语法，也为了自己更加&lt;br&gt;大概就是类似于Swift Cafe的一个App&lt;br&gt;主要功能有：一个列表，一个WebView加载网站&lt;br&gt;1.获取网站列表，解析&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;1&lt;/li&gt;
+&lt;li&gt;2&lt;/li&gt;
+&lt;li&gt;3&lt;/li&gt;
+&lt;li&gt;4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;产品需求&quot;&gt;&lt;a href=&quot;#产品需求&quot; class=&quot;headerlink&quot; title=&quot;产品需求&quot;&gt;&lt;/a&gt;产品需求&lt;/h3&gt;&lt;h3 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;p&gt;&lt;code&gt;nihao&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://summerxx.com/2016/06/30/Swift-Test/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Swift-Test&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;为了温习swift的语法，也为了自己更加&lt;br&gt;大概就是类似于Swift Cafe的一个App&lt;br&gt;主要功能有：一个列表，一个WebView加载网站&lt;br&gt;1.获取网站列表，解析&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;1&lt;/li&gt;
+    
+    </summary>
+    
+    
+      <category term="swift" scheme="http://yoursite.com/tags/swift/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>swift-little-demo</title>
+    <link href="http://yoursite.com/2016/07/15/swift-little-demo/"/>
+    <id>http://yoursite.com/2016/07/15/swift-little-demo/</id>
+    <published>2016-07-15T04:15:37.000Z</published>
+    <updated>2016-07-15T09:45:02.000Z</updated>
+    
+    <content type="html">&lt;figure class=&quot;highlight objectivec&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Alamofire.request(.GET, &lt;span class=&quot;string&quot;&gt;&quot;https://httpbin.org/get&quot;&lt;/span&gt;, parameters: [&lt;span class=&quot;string&quot;&gt;&quot;foo&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;bar&quot;&lt;/span&gt;])&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           .responseJSON &amp;#123; response &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               print(response.request)  &lt;span class=&quot;comment&quot;&gt;// original URL request&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               print(response.response) &lt;span class=&quot;comment&quot;&gt;// URL response&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               print(response.data)     &lt;span class=&quot;comment&quot;&gt;// server data&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               print(response.result)   &lt;span class=&quot;comment&quot;&gt;// result of response serialization&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; let JSON = response.result.value &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                   print(&lt;span class=&quot;string&quot;&gt;&quot;JSON: \(JSON)&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight objectivec&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span 
+    
+    </summary>
+    
+    
+      <category term="swift" scheme="http://yoursite.com/tags/swift/"/>
+    
+  </entry>
   
   <entry>
     <title>那些著名或非著名的iOS面试题（3）</title>
@@ -82,8 +140,8 @@
   
   <entry>
     <title>那些著名或非著名的iOS面试题（1）</title>
-    <link href="http://yoursite.com/2016/07/15/review-1/"/>
-    <id>http://yoursite.com/2016/07/15/review-1/</id>
+    <link href="http://yoursite.com/2016/07/15/interview-1/"/>
+    <id>http://yoursite.com/2016/07/15/interview-1/</id>
     <published>2016-07-15T02:36:49.000Z</published>
     <updated>2016-07-15T02:55:38.000Z</updated>
     
@@ -127,15 +185,15 @@
     <link href="http://yoursite.com/2016/07/15/UITableView-ProgressView/"/>
     <id>http://yoursite.com/2016/07/15/UITableView-ProgressView/</id>
     <published>2016-07-14T16:08:15.000Z</published>
-    <updated>2016-07-14T16:16:33.000Z</updated>
+    <updated>2016-07-15T09:45:57.000Z</updated>
     
-    <content type="html">&lt;h3 id=&quot;UITableView-显示进度条&quot;&gt;&lt;a href=&quot;#UITableView-显示进度条&quot; class=&quot;headerlink&quot; title=&quot;UITableView 显示进度条&quot;&gt;&lt;/a&gt;UITableView 显示进度条&lt;/h3&gt;&lt;h3 id=&quot;参考网站&quot;&gt;&lt;a href=&quot;#参考网站&quot; class=&quot;headerlink&quot; title=&quot;参考网站&quot;&gt;&lt;/a&gt;参考网站&lt;/h3&gt;&lt;ul&gt;
+    <content type="html">&lt;h3 id=&quot;UITableView-显示进度条&quot;&gt;&lt;a href=&quot;#UITableView-显示进度条&quot; class=&quot;headerlink&quot; title=&quot;UITableView 显示进度条&quot;&gt;&lt;/a&gt;UITableView 显示进度条&lt;/h3&gt;&lt;h3 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://iaiai.iteye.com/blog/2176287&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UIWebView 进度条控件 NJKWebViewProgress的使用和分析&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;每日一Linux命令&quot;&gt;&lt;a href=&quot;#每日一Linux命令&quot; class=&quot;headerlink&quot; title=&quot;每日一Linux命令&quot;&gt;&lt;/a&gt;每日一Linux命令&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;scp&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;**scp**&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;scp&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;每日一Github&quot;&gt;&lt;a href=&quot;#每日一Github&quot; class=&quot;headerlink&quot; title=&quot;每日一Github&quot;&gt;&lt;/a&gt;每日一Github&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/samsoffes/sskeychain&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;sskeychain&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -144,7 +202,7 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;UITableView-显示进度条&quot;&gt;&lt;a href=&quot;#UITableView-显示进度条&quot; class=&quot;headerlink&quot; title=&quot;UITableView 显示进度条&quot;&gt;&lt;/a&gt;UITableView 显示进度条&lt;/h3&gt;&lt;h3 id=&quot;参考网站&quot;
+      &lt;h3 id=&quot;UITableView-显示进度条&quot;&gt;&lt;a href=&quot;#UITableView-显示进度条&quot; class=&quot;headerlink&quot; title=&quot;UITableView 显示进度条&quot;&gt;&lt;/a&gt;UITableView 显示进度条&lt;/h3&gt;&lt;h3 id=&quot;参考&quot;&gt;&lt;
     
     </summary>
     
@@ -158,7 +216,7 @@
     <link href="http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/"/>
     <id>http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/</id>
     <published>2016-07-14T02:01:06.000Z</published>
-    <updated>2016-07-14T15:25:01.000Z</updated>
+    <updated>2016-07-15T09:30:26.000Z</updated>
     
     <content type="html">&lt;p&gt;ios中用得最多的就是UITableView，现在写界面基本上都会遇到，而自定义UITableViewCell更是家常便饭，那我们怎么去复用和使用自定义UITableViewCell呢，storyboard就不说了。&lt;/p&gt;
 &lt;ul&gt;
@@ -169,7 +227,7 @@
 &lt;h3 id=&quot;registerNib&quot;&gt;&lt;a href=&quot;#registerNib&quot; class=&quot;headerlink&quot; title=&quot;registerNib&quot;&gt;&lt;/a&gt;registerNib&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[_tableView registerNib:[UINib nibWithNibName:@&amp;quot;xxxxxCell&amp;quot; bundle:nil] forCellReuseIdentifier:kCellIdentify];&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;registerClass&quot;&gt;&lt;a href=&quot;#registerClass&quot; class=&quot;headerlink&quot; title=&quot;registerClass&quot;&gt;&lt;/a&gt;registerClass&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[_tableView registerClass:[xxxxxCell class] forCellReuseIdentifier:kCellIdentify];&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;直接加载&quot;&gt;&lt;a href=&quot;#直接加载&quot; class=&quot;headerlink&quot; title=&quot;直接加载&quot;&gt;&lt;/a&gt;直接加载&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;NAAyyay * array = [[NSBundle mainBundle] loadNibNamed:@&amp;quot;MyXibFileName&amp;quot; owner:self];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;UITableViewCell *cell = array[0];&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;参考网站&quot;&gt;&lt;a href=&quot;#参考网站&quot; class=&quot;headerlink&quot; title=&quot;参考网站&quot;&gt;&lt;/a&gt;参考网站&lt;/h3&gt;&lt;ul&gt;
+&lt;h3 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/7354377/how-to-load-nib-into-view&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;how-to-load-nib-into-view&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/youngsblog/article/details/44536143&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;自定义UITableViewCell（registerNib: 与 registerClass: 的区别）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://itfish.net/article/24224.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;自定义UITableViewCell（registerNib: 与 registerClass: 的区别&lt;/a&gt;&lt;/li&gt;
@@ -194,13 +252,14 @@
     <link href="http://yoursite.com/2016/07/13/cocoapods-setup/"/>
     <id>http://yoursite.com/2016/07/13/cocoapods-setup/</id>
     <published>2016-07-12T22:28:16.000Z</published>
-    <updated>2016-07-14T09:50:48.000Z</updated>
+    <updated>2016-07-15T10:24:26.000Z</updated>
     
-    <content type="html">&lt;h3 id=&quot;cocoapods-install&quot;&gt;&lt;a href=&quot;#cocoapods-install&quot; class=&quot;headerlink&quot; title=&quot;cocoapods install&quot;&gt;&lt;/a&gt;cocoapods install&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gem install cocoapods&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;pod setup&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    <content type="html">&lt;p&gt;sdfdsfsd&lt;br&gt;sdfdsfsd&lt;/p&gt;
+&lt;h1 id=&quot;sdfsdf&quot;&gt;&lt;a href=&quot;#sdfsdf&quot; class=&quot;headerlink&quot; title=&quot;sdfsdf&quot;&gt;&lt;/a&gt;sdfsdf&lt;/h1&gt;&lt;h3 id=&quot;cocoapods-install&quot;&gt;&lt;a href=&quot;#cocoapods-install&quot; class=&quot;headerlink&quot; title=&quot;cocoapods install&quot;&gt;&lt;/a&gt;cocoapods install&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gem install cocoapods&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;pod setup&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;如果不能访问gem源的话建议使用淘宝的源&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gem sources --remove https://rubygems.org/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gem sources -a https://ruby.taobao.org/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gem sources -l&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;cocoapods基本使用&quot;&gt;&lt;a href=&quot;#cocoapods基本使用&quot; class=&quot;headerlink&quot; title=&quot;cocoapods基本使用&quot;&gt;&lt;/a&gt;cocoapods基本使用&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;touch Podfile&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;参考网站&quot;&gt;&lt;a href=&quot;#参考网站&quot; class=&quot;headerlink&quot; title=&quot;参考网站&quot;&gt;&lt;/a&gt;参考网站&lt;/h3&gt;&lt;ul&gt;
+&lt;h3 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://guides.cocoapods.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cocoapods Guides&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.devtang.com/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;用CocoaPods做iOS程序的依赖管理&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -208,7 +267,8 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;cocoapods-install&quot;&gt;&lt;a href=&quot;#cocoapods-install&quot; class=&quot;headerlink&quot; title=&quot;cocoapods install&quot;&gt;&lt;/a&gt;cocoapods install&lt;/h3&gt;&lt;figure class
+      &lt;p&gt;sdfdsfsd&lt;br&gt;sdfdsfsd&lt;/p&gt;
+&lt;h1 id=&quot;sdfsdf&quot;&gt;&lt;a href=&quot;#sdfsdf&quot; class=&quot;headerlink&quot; title=&quot;sdfsdf&quot;&gt;&lt;/a&gt;sdfsdf&lt;/h1&gt;&lt;h3 id=&quot;cocoapods-install&quot;&gt;&lt;a
     
     </summary>
     
@@ -238,13 +298,13 @@
     <link href="http://yoursite.com/2016/07/11/nginx-proxy-netwotk/"/>
     <id>http://yoursite.com/2016/07/11/nginx-proxy-netwotk/</id>
     <published>2016-07-11T06:03:55.000Z</published>
-    <updated>2016-07-14T09:21:24.000Z</updated>
+    <updated>2016-07-15T09:30:36.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;Nginx-做http代理&quot;&gt;&lt;a href=&quot;#Nginx-做http代理&quot; class=&quot;headerlink&quot; title=&quot;Nginx 做http代理&quot;&gt;&lt;/a&gt;Nginx 做http代理&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;编辑/etc/nginx/nginx.conf&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;server&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       listen          80;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       server_name     bhond.com; //本地访问域名&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       location / &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               proxy_pass              http://www.t66y.com; //你懂的&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               proxy_redirect          off;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               proxy_set_header        X-Real-IP       $remote_addr;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;nginx的一些基本命令&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;nginx -t // 测试配置文件是否有语法错误&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;nginx -s reload //重新加载nginx 配置文件&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;参考网站&quot;&gt;&lt;a href=&quot;#参考网站&quot; class=&quot;headerlink&quot; title=&quot;参考网站&quot;&gt;&lt;/a&gt;参考网站&lt;/h3&gt;&lt;ul&gt;
+&lt;h3 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/d5114a2a2052&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Centos下 Nginx安装与配置&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.zjian.me/centos/nginx反向代理google/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;nginx反向代理google&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -300,7 +360,7 @@
     <link href="http://yoursite.com/2016/07/10/ngrok-setup/"/>
     <id>http://yoursite.com/2016/07/10/ngrok-setup/</id>
     <published>2016-07-10T13:23:47.000Z</published>
-    <updated>2016-07-11T14:28:00.000Z</updated>
+    <updated>2016-07-15T09:30:31.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;内网穿透&quot;&gt;&lt;a href=&quot;#内网穿透&quot; class=&quot;headerlink&quot; title=&quot;内网穿透&quot;&gt;&lt;/a&gt;内网穿透&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://o6y686hwm.bkt.clouddn.com/jinglingshu_2015-04-27_09-33-12.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;当我们想让别人访问搭建在自己机器上的http服务器时怎么办呢？IP地址是内网中的，外网根本访问不了，这时就需要一个外网ip，或者实现内网穿透。&lt;br&gt;需要go语言的环境，使用gvm来安装go和管理go的版本。&lt;/p&gt;
@@ -317,7 +377,7 @@
 &lt;h3 id=&quot;编译&quot;&gt;&lt;a href=&quot;#编译&quot; class=&quot;headerlink&quot; title=&quot;编译&quot;&gt;&lt;/a&gt;编译&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;//编译证书&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;NGROK_DOMAIN=&amp;quot;imququ.com&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;openssl genrsa -out base.key 2048&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;openssl req -new -x509 -nodes -key base.key -days 10000 -subj &amp;quot;/CN=$NGROK_DOMAIN&amp;quot; -out base.pem&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;openssl genrsa -out server.key 2048&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;openssl req -new -key server.key -subj &amp;quot;/CN=$NGROK_DOMAIN&amp;quot; -out server.csr&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;openssl x509 -req -in server.csr -CA base.pem -CAkey base.key -CAcreateserial -days 10000 -out server.crt&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cp base.pem assets/client/tls/ngrokroot.crt&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   //编译服务端&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;GOOS=linux GOARCH=amd64 make release-server&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;//切到go的源码目录执行&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;GOOS=darwin GOARCH=amd64 ./make.bash&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;//然后再切到ngrok的目录下&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;GOOS=darwin GOARCH=amd64 make release-client&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;在ngrok目录有一个bin目录，就是可执行文件，拷贝到目标机器即可.&lt;/p&gt;
 &lt;h3 id=&quot;安装ngrok&quot;&gt;&lt;a href=&quot;#安装ngrok&quot; class=&quot;headerlink&quot; title=&quot;安装ngrok&quot;&gt;&lt;/a&gt;安装ngrok&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;bin/ngrokd -domain=&amp;quot;$NGROK_DOMAIN&amp;quot; -httpAddr=&amp;quot;:8000&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;./ngrok -config=./ngrok.cfg -subdomain=test 80&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;参考的一些网站&quot;&gt;&lt;a href=&quot;#参考的一些网站&quot; class=&quot;headerlink&quot; title=&quot;参考的一些网站&quot;&gt;&lt;/a&gt;参考的一些网站&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://imququ.com/post/self-hosted-ngrokd.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搭建 ngrok 服务实现内网穿透&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.ekan001.com/articles/38&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;自行编译ngrok服务端客户端，替代花生壳，跨平台&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.imooc.com/article/7457&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;分享一下在centos上搭建ngrok服务器的过程吧！&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://aevit.xyz/2016/03/31/ngrok/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用ngrok进行内网穿透&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://cjting.me/misc/2016-05-21-%E4%BD%BF%E7%94%A8Ngrok%E5%AE%9E%E7%8E%B0%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用Ngrok实现内网穿透&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://imququ.com/post/self-hosted-ngrokd.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搭建 ngrok 服务实现内网穿透&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.ekan001.com/articles/38&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;自行编译ngrok服务端客户端，替代花生壳，跨平台&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.imooc.com/article/7457&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;分享一下在centos上搭建ngrok服务器的过程吧！&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://aevit.xyz/2016/03/31/ngrok/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用ngrok进行内网穿透&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://cjting.me/misc/2016-05-21-%E4%BD%BF%E7%94%A8Ngrok%E5%AE%9E%E7%8E%B0%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用Ngrok实现内网穿透&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">

@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/07/13/cocoapods-setup/</loc>
+    
+    <lastmod>2016-07-15T10:24:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/15/UITableView-ProgressView/</loc>
+    
+    <lastmod>2016-07-15T09:45:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/15/swift-little-demo/</loc>
+    
+    <lastmod>2016-07-15T09:45:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/11/nginx-proxy-netwotk/</loc>
+    
+    <lastmod>2016-07-15T09:30:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/10/ngrok-setup/</loc>
+    
+    <lastmod>2016-07-15T09:30:31.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/</loc>
+    
+    <lastmod>2016-07-15T09:30:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/15/Swifter-App/</loc>
+    
+    <lastmod>2016-07-15T09:21:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/07/15/interview-3/</loc>
     
     <lastmod>2016-07-15T03:08:08.000Z</lastmod>
@@ -16,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/07/15/review-1/</loc>
+    <loc>http://yoursite.com/2016/07/15/interview-1/</loc>
     
     <lastmod>2016-07-15T02:55:38.000Z</lastmod>
     
@@ -37,37 +86,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/07/15/UITableView-ProgressView/</loc>
-    
-    <lastmod>2016-07-14T16:16:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2016/07/10/install-shadowsocks/</loc>
     
     <lastmod>2016-07-14T16:09:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/</loc>
-    
-    <lastmod>2016-07-14T15:25:01.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/07/13/cocoapods-setup/</loc>
-    
-    <lastmod>2016-07-14T09:50:48.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/07/11/nginx-proxy-netwotk/</loc>
-    
-    <lastmod>2016-07-14T09:21:24.000Z</lastmod>
     
   </url>
   
@@ -82,13 +103,6 @@
     <loc>http://yoursite.com/2016/07/12/just-talk-webpack/</loc>
     
     <lastmod>2016-07-12T06:15:45.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/07/10/ngrok-setup/</loc>
-    
-    <lastmod>2016-07-11T14:28:00.000Z</lastmod>
     
   </url>
   
