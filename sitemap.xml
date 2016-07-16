@@ -2,9 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/07/15/Swifter-App/</loc>
+    
+    <lastmod>2016-07-16T16:32:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/12/just-talk-webpack/</loc>
+    
+    <lastmod>2016-07-16T16:30:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/</loc>
+    
+    <lastmod>2016-07-16T16:29:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/07/10/LightSword-setup/</loc>
     
-    <lastmod>2016-07-16T13:10:35.000Z</lastmod>
+    <lastmod>2016-07-16T16:24:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/15/swift-little-demo/</loc>
+    
+    <lastmod>2016-07-16T16:24:07.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/15/UITableView-ProgressView/</loc>
+    
+    <lastmod>2016-07-16T16:23:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/16/fullstack-note/</loc>
+    
+    <lastmod>2016-07-16T14:24:43.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/16/blog-arrange/</loc>
+    
+    <lastmod>2016-07-16T14:15:49.000Z</lastmod>
     
   </url>
   
@@ -51,30 +100,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/07/16/blog-arrange/</loc>
-    
-    <lastmod>2016-07-16T11:40:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2016/07/13/cocoapods-setup/</loc>
     
     <lastmod>2016-07-16T07:55:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/07/15/UITableView-ProgressView/</loc>
-    
-    <lastmod>2016-07-15T09:45:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/07/15/swift-little-demo/</loc>
-    
-    <lastmod>2016-07-15T09:45:02.000Z</lastmod>
     
   </url>
   
@@ -93,30 +121,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/</loc>
-    
-    <lastmod>2016-07-15T09:30:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/07/15/Swifter-App/</loc>
-    
-    <lastmod>2016-07-15T09:21:21.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2016/07/08/website/</loc>
     
     <lastmod>2016-07-12T06:55:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/07/12/just-talk-webpack/</loc>
-    
-    <lastmod>2016-07-12T06:15:45.000Z</lastmod>
     
   </url>
   

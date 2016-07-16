@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-16T11:40:31.000Z</updated>
+  <updated>2016-07-16T14:24:43.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>读《Web全栈工程师的自我修养》</title>
+    <link href="http://yoursite.com/2016/07/16/fullstack-note/"/>
+    <id>http://yoursite.com/2016/07/16/fullstack-note/</id>
+    <published>2016-07-16T14:19:09.000Z</published>
+    <updated>2016-07-16T14:24:43.000Z</updated>
+    
+    <content type="html">&lt;p&gt;全栈工程师这个名词近些年来提到次数很多，以前我的座右铭就是做一个全栈工程师，但是其实那个时候连全栈是什么意思都不知道，总是觉得什么都好奇，python啊，ruby啊，go啊，觉得语言好多，不知该从何学起。当然也导致&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;全栈工程师这个名词近些年来提到次数很多，以前我的座右铭就是做一个全栈工程师，但是其实那个时候连全栈是什么意思都不知道，总是觉得什么都好奇，python啊，ruby啊，go啊，觉得语言好多，不知该从何学起。当然也导致&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
     <title>整理一些博客列表</title>
     <link href="http://yoursite.com/2016/07/16/blog-arrange/"/>
     <id>http://yoursite.com/2016/07/16/blog-arrange/</id>
     <published>2016-07-16T03:41:55.000Z</published>
-    <updated>2016-07-16T11:40:31.000Z</updated>
+    <updated>2016-07-16T14:15:49.000Z</updated>
     
     <content type="html">&lt;p&gt;整理一些博客列表&lt;/p&gt;
 &lt;p&gt;自己从毕业以后就一直从事App端开发，基本上没有接触过其他的，比如Web端，后端，h5端，整理的这些博客以备后用，虽然不想专太多，了解一下还是好的。&lt;/p&gt;
@@ -35,7 +57,14 @@
 &lt;h2 id=&quot;oc&quot;&gt;&lt;a href=&quot;#oc&quot; class=&quot;headerlink&quot; title=&quot;oc&quot;&gt;&lt;/a&gt;oc&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://skyline75489.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;skyline75489&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;android&quot;&gt;&lt;a href=&quot;#android&quot; class=&quot;headerlink&quot; title=&quot;android&quot;&gt;&lt;/a&gt;android&lt;/h2&gt;&lt;h2 id=&quot;前端&quot;&gt;&lt;a href=&quot;#前端&quot; class=&quot;headerlink&quot; title=&quot;前端&quot;&gt;&lt;/a&gt;前端&lt;/h2&gt;&lt;h2 id=&quot;后端&quot;&gt;&lt;a href=&quot;#后端&quot; class=&quot;headerlink&quot; title=&quot;后端&quot;&gt;&lt;/a&gt;后端&lt;/h2&gt;&lt;p&gt;…待续&lt;/p&gt;
+&lt;h2 id=&quot;android&quot;&gt;&lt;a href=&quot;#android&quot; class=&quot;headerlink&quot; title=&quot;android&quot;&gt;&lt;/a&gt;android&lt;/h2&gt;&lt;h2 id=&quot;前端&quot;&gt;&lt;a href=&quot;#前端&quot; class=&quot;headerlink&quot; title=&quot;前端&quot;&gt;&lt;/a&gt;前端&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://imququ.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jerry Qu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pinggod.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;pinggod&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;后端&quot;&gt;&lt;a href=&quot;#后端&quot; class=&quot;headerlink&quot; title=&quot;后端&quot;&gt;&lt;/a&gt;后端&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://g.gravizo.com/g?
+    a -&amp;gt; b: hello;
+    b -&amp;gt; a: hi;&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;…待续&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -55,9 +84,10 @@
     <link href="http://yoursite.com/2016/07/15/Swifter-App/"/>
     <id>http://yoursite.com/2016/07/15/Swifter-App/</id>
     <published>2016-07-15T06:55:44.000Z</published>
-    <updated>2016-07-15T09:21:21.000Z</updated>
+    <updated>2016-07-16T16:32:45.000Z</updated>
     
-    <content type="html">&lt;blockquote&gt;
+    <content type="html">&lt;p&gt;Swifter App&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;为了温习swift的语法，也为了自己更加&lt;br&gt;大概就是类似于Swift Cafe的一个App&lt;br&gt;主要功能有：一个列表，一个WebView加载网站&lt;br&gt;1.获取网站列表，解析&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
@@ -74,11 +104,7 @@
     
     <summary type="html">
     
-      &lt;blockquote&gt;
-&lt;p&gt;为了温习swift的语法，也为了自己更加&lt;br&gt;大概就是类似于Swift Cafe的一个App&lt;br&gt;主要功能有：一个列表，一个WebView加载网站&lt;br&gt;1.获取网站列表，解析&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;1&lt;/li&gt;
+      &lt;p&gt;Swifter App&lt;br&gt;
     
     </summary>
     
@@ -88,18 +114,18 @@
   </entry>
   
   <entry>
-    <title>swift-little-demo</title>
+    <title>Swift 小记</title>
     <link href="http://yoursite.com/2016/07/15/swift-little-demo/"/>
     <id>http://yoursite.com/2016/07/15/swift-little-demo/</id>
     <published>2016-07-15T04:15:37.000Z</published>
-    <updated>2016-07-15T09:45:02.000Z</updated>
+    <updated>2016-07-16T16:24:07.000Z</updated>
     
-    <content type="html">&lt;figure class=&quot;highlight objectivec&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Alamofire.request(.GET, &lt;span class=&quot;string&quot;&gt;&quot;https://httpbin.org/get&quot;&lt;/span&gt;, parameters: [&lt;span class=&quot;string&quot;&gt;&quot;foo&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;bar&quot;&lt;/span&gt;])&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           .responseJSON &amp;#123; response &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               print(response.request)  &lt;span class=&quot;comment&quot;&gt;// original URL request&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               print(response.response) &lt;span class=&quot;comment&quot;&gt;// URL response&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               print(response.data)     &lt;span class=&quot;comment&quot;&gt;// server data&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               print(response.result)   &lt;span class=&quot;comment&quot;&gt;// result of response serialization&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; let JSON = response.result.value &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                   print(&lt;span class=&quot;string&quot;&gt;&quot;JSON: \(JSON)&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    <content type="html">&lt;p&gt;Swift 小记&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;figure class=&quot;highlight objectivec&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Alamofire.request(.GET, &lt;span class=&quot;string&quot;&gt;&quot;https://httpbin.org/get&quot;&lt;/span&gt;, parameters: [&lt;span class=&quot;string&quot;&gt;&quot;foo&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;bar&quot;&lt;/span&gt;])&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           .responseJSON &amp;#123; response &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               print(response.request)  &lt;span class=&quot;comment&quot;&gt;// original URL request&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               print(response.response) &lt;span class=&quot;comment&quot;&gt;// URL response&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               print(response.data)     &lt;span class=&quot;comment&quot;&gt;// server data&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               print(response.result)   &lt;span class=&quot;comment&quot;&gt;// result of response serialization&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; let JSON = response.result.value &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                   print(&lt;span class=&quot;string&quot;&gt;&quot;JSON: \(JSON)&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;highlight objectivec&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span 
+      &lt;p&gt;Swift 小记&lt;br&gt;
     
     </summary>
     
@@ -258,7 +284,7 @@
     <link href="http://yoursite.com/2016/07/15/UITableView-ProgressView/"/>
     <id>http://yoursite.com/2016/07/15/UITableView-ProgressView/</id>
     <published>2016-07-14T16:08:15.000Z</published>
-    <updated>2016-07-15T09:45:57.000Z</updated>
+    <updated>2016-07-16T16:23:00.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;UITableView-显示进度条&quot;&gt;&lt;a href=&quot;#UITableView-显示进度条&quot; class=&quot;headerlink&quot; title=&quot;UITableView 显示进度条&quot;&gt;&lt;/a&gt;UITableView 显示进度条&lt;/h3&gt;&lt;h3 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://iaiai.iteye.com/blog/2176287&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UIWebView 进度条控件 NJKWebViewProgress的使用和分析&lt;/a&gt;&lt;/li&gt;
@@ -266,7 +292,7 @@
 &lt;h3 id=&quot;每日一Linux命令&quot;&gt;&lt;a href=&quot;#每日一Linux命令&quot; class=&quot;headerlink&quot; title=&quot;每日一Linux命令&quot;&gt;&lt;/a&gt;每日一Linux命令&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;scp&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;scp&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;每日一Github&quot;&gt;&lt;a href=&quot;#每日一Github&quot; class=&quot;headerlink&quot; title=&quot;每日一Github&quot;&gt;&lt;/a&gt;每日一Github&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/samsoffes/sskeychain&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;sskeychain&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -289,9 +315,10 @@
     <link href="http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/"/>
     <id>http://yoursite.com/2016/07/14/registerNib-registerClass-InUITableView/</id>
     <published>2016-07-14T02:01:06.000Z</published>
-    <updated>2016-07-15T09:30:26.000Z</updated>
+    <updated>2016-07-16T16:29:04.000Z</updated>
     
     <content type="html">&lt;p&gt;ios中用得最多的就是UITableView，现在写界面基本上都会遇到，而自定义UITableViewCell更是家常便饭，那我们怎么去复用和使用自定义UITableViewCell呢，storyboard就不说了。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;registerNib&lt;/li&gt;
 &lt;li&gt;registerClass&lt;/li&gt;
@@ -310,8 +337,6 @@
     <summary type="html">
     
       &lt;p&gt;ios中用得最多的就是UITableView，现在写界面基本上都会遇到，而自定义UITableViewCell更是家常便饭，那我们怎么去复用和使用自定义UITableViewCell呢，storyboard就不说了。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;registerNib&lt;/li
     
     </summary>
     
@@ -355,11 +380,15 @@
     <link href="http://yoursite.com/2016/07/12/just-talk-webpack/"/>
     <id>http://yoursite.com/2016/07/12/just-talk-webpack/</id>
     <published>2016-07-12T06:15:18.000Z</published>
-    <updated>2016-07-12T06:15:45.000Z</updated>
+    <updated>2016-07-16T16:30:54.000Z</updated>
     
-    <content type="html"></content>
+    <content type="html">&lt;p&gt;webpack&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+</content>
     
     <summary type="html">
+    
+      &lt;p&gt;webpack&lt;/p&gt;
     
     </summary>
     
@@ -399,14 +428,15 @@
     <link href="http://yoursite.com/2016/07/10/LightSword-setup/"/>
     <id>http://yoursite.com/2016/07/10/LightSword-setup/</id>
     <published>2016-07-10T13:54:20.000Z</published>
-    <updated>2016-07-16T13:10:35.000Z</updated>
+    <updated>2016-07-16T16:24:59.000Z</updated>
     
-    <content type="html">&lt;ul&gt;
+    <content type="html">&lt;p&gt;LightSword是&lt;a href=&quot;https://github.com/UnsignedInt8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UnsignedInt8&lt;/a&gt;写的一个socks5代理，其实跟shadowsocks差不多，参考了shadowsocks的协议，用nodejs写的。可以直接上github上面看，&lt;a href=&quot;https://github.com/UnsignedInt8/LightSword&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LightSword&lt;/a&gt;。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;LightSword&quot;&gt;&lt;a href=&quot;#LightSword&quot; class=&quot;headerlink&quot; title=&quot;LightSword&quot;&gt;&lt;/a&gt;LightSword&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;LightSword&lt;/li&gt;
 &lt;li&gt;安装&lt;/li&gt;
 &lt;li&gt;使用&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;LightSword&quot;&gt;&lt;a href=&quot;#LightSword&quot; class=&quot;headerlink&quot; title=&quot;LightSword&quot;&gt;&lt;/a&gt;LightSword&lt;/h3&gt;&lt;p&gt;LightSword是&lt;a href=&quot;https://github.com/UnsignedInt8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UnsignedInt8&lt;/a&gt;写的一个socks5代理，其实跟shadowsocks差不多，参考了shadowsocks的协议，用nodejs写的。可以直接上github上面看，&lt;a href=&quot;https://github.com/UnsignedInt8/LightSword&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LightSword&lt;/a&gt;。&lt;/p&gt;
 &lt;h3 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm install lightsword -g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;服务器端:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	lsserver -f&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;客户端:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	lslocal -s server_addr -f&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;中转站:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	lsbridge -s server_addr -f&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;然后设置本地电脑的socks5代理指向localhost:1080即可&lt;/p&gt;
@@ -414,12 +444,7 @@
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;LightSword&lt;/li&gt;
-&lt;li&gt;安装&lt;/li&gt;
-&lt;li&gt;使用&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;LightSword&quot;&gt;&lt;a href=&quot;#LightSword&quot; class=&quot;headerlink&quot; title=&quot;LightSword&quot;&gt;&lt;/a&gt;L
+      &lt;p&gt;LightSword是&lt;a href=&quot;https://github.com/UnsignedInt8&quot;&gt;UnsignedInt8&lt;/a&gt;写的一个socks5代理，其实跟shadowsocks差不多，参考了shadowsocks的协议，用nodejs写的。可以直接上github上面看，&lt;a href=&quot;https://github.com/UnsignedInt8/LightSword&quot;&gt;LightSword&lt;/a&gt;。&lt;/p&gt;
     
     </summary>
     
