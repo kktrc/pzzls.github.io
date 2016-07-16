@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-16T07:45:00.000Z</updated>
+  <updated>2016-07-16T11:40:31.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/07/16/blog-arrange/"/>
     <id>http://yoursite.com/2016/07/16/blog-arrange/</id>
     <published>2016-07-16T03:41:55.000Z</published>
-    <updated>2016-07-16T07:45:00.000Z</updated>
+    <updated>2016-07-16T11:40:31.000Z</updated>
     
     <content type="html">&lt;p&gt;整理一些博客列表&lt;/p&gt;
 &lt;p&gt;自己从毕业以后就一直从事App端开发，基本上没有接触过其他的，比如Web端，后端，h5端，整理的这些博客以备后用，虽然不想专太多，了解一下还是好的。&lt;/p&gt;
@@ -32,7 +32,10 @@
 &lt;li&gt;&lt;a href=&quot;http://blog.devzeng.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;曾静的技术博客&lt;/a&gt; //第一次还以为是我以前的同事&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.cnbluebox.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;刘坤的技术博客&lt;/a&gt; //阿里的&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;…待续&lt;/p&gt;
+&lt;h2 id=&quot;oc&quot;&gt;&lt;a href=&quot;#oc&quot; class=&quot;headerlink&quot; title=&quot;oc&quot;&gt;&lt;/a&gt;oc&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://skyline75489.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;skyline75489&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;android&quot;&gt;&lt;a href=&quot;#android&quot; class=&quot;headerlink&quot; title=&quot;android&quot;&gt;&lt;/a&gt;android&lt;/h2&gt;&lt;h2 id=&quot;前端&quot;&gt;&lt;a href=&quot;#前端&quot; class=&quot;headerlink&quot; title=&quot;前端&quot;&gt;&lt;/a&gt;前端&lt;/h2&gt;&lt;h2 id=&quot;后端&quot;&gt;&lt;a href=&quot;#后端&quot; class=&quot;headerlink&quot; title=&quot;后端&quot;&gt;&lt;/a&gt;后端&lt;/h2&gt;&lt;p&gt;…待续&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -110,7 +113,7 @@
     <link href="http://yoursite.com/2016/07/15/interview-3/"/>
     <id>http://yoursite.com/2016/07/15/interview-3/</id>
     <published>2016-07-15T03:04:02.000Z</published>
-    <updated>2016-07-15T03:08:08.000Z</updated>
+    <updated>2016-07-16T13:10:20.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;取自&lt;a href=&quot;http://www.codeceo.com/article/ios-interview-3.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;那些著名或非著名的iOS面试题（下）&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -125,11 +128,23 @@
 &lt;li&gt;9.NSObject的load和initialize方法&lt;/li&gt;
 &lt;li&gt;10.能否向编译后得到的类中增加实例变量？能否向运行时创建的类中添加实例变量？为什么？&lt;/li&gt;
 &lt;/ul&gt;
-</content>
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;</content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;strong&gt;取自&lt;a href=&quot;http://www.codeceo.com/article/ios-interview-3.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;那些著名或非著名的iOS面试题（下）&lt;/a&gt;&lt;/strong&gt;&lt;/p
+      &lt;p&gt;&lt;strong&gt;取自&lt;a href=&quot;http://www.codeceo.com/article/ios-interview-3.html&quot;&gt;那些著名或非著名的iOS面试题（下）&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1.Runtime&lt;/li&gt;
+&lt;li&gt;2.GCD实现1，2并行和3串行和45串行，4，5是并行。即3依赖1，2的执行，45依赖3的执行&lt;/li&gt;
+&lt;li&gt;3.深浅复制和属性为copy，strong值的变化问题&lt;/li&gt;
+&lt;li&gt;4.NSTimer创建后，会在哪个线程运行&lt;/li&gt;
+&lt;li&gt;5.KVO，NSNotification，delegate及block区别&lt;/li&gt;
+&lt;li&gt;6.如何让计时器调用一个类方法&lt;/li&gt;
+&lt;li&gt;7.调用一个类的静态方法需不需要release？&lt;/li&gt;
+&lt;li&gt;8.static作用？&lt;/li&gt;
+&lt;li&gt;9.NSObject的load和initialize方法&lt;/li&gt;
+&lt;li&gt;10.能否向编译后得到的类中增加实例变量？能否向运行时创建的类中添加实例变量？为什么？&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -143,7 +158,7 @@
     <link href="http://yoursite.com/2016/07/15/interview-2/"/>
     <id>http://yoursite.com/2016/07/15/interview-2/</id>
     <published>2016-07-15T02:59:00.000Z</published>
-    <updated>2016-07-15T03:02:43.000Z</updated>
+    <updated>2016-07-16T13:10:16.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;取自&lt;a href=&quot;http://www.codeceo.com/article/ios-interview-2.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;那些著名或非著名的iOS面试题（2）&lt;/a&gt; &lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -157,11 +172,23 @@
 &lt;li&gt;8.支付宝SDK使用&lt;/li&gt;
 &lt;li&gt;9.远程推送&lt;/li&gt;
 &lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;strong&gt;取自&lt;a href=&quot;http://www.codeceo.com/article/ios-interview-2.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;那些著名或非著名的iOS面试题（2）&lt;/a&gt; &lt;/strong&gt;&lt;/
+      &lt;p&gt;&lt;strong&gt;取自&lt;a href=&quot;http://www.codeceo.com/article/ios-interview-2.html&quot;&gt;那些著名或非著名的iOS面试题（2）&lt;/a&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1.反转二叉树，不用递归&lt;/li&gt;
+&lt;li&gt;2.写一个单例模式&lt;/li&gt;
+&lt;li&gt;3.iOS应用生命周期&lt;/li&gt;
+&lt;li&gt;4.一工人给老板打7天工要求一块金条 这金条只能切2次 工人每天要1/7金条 怎么分?&lt;/li&gt;
+&lt;li&gt;5.iOS中socket使用&lt;/li&gt;
+&lt;li&gt;6.网络请求中post和get的区别&lt;/li&gt;
+&lt;li&gt;7.时间复杂度和空间复杂度&lt;/li&gt;
+&lt;li&gt;8.支付宝SDK使用&lt;/li&gt;
+&lt;li&gt;9.远程推送&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -175,7 +202,7 @@
     <link href="http://yoursite.com/2016/07/15/interview-1/"/>
     <id>http://yoursite.com/2016/07/15/interview-1/</id>
     <published>2016-07-15T02:36:49.000Z</published>
-    <updated>2016-07-15T02:55:38.000Z</updated>
+    <updated>2016-07-16T13:09:39.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;想不到这么快就要开始找工作了，生活不易啊，人艰不拆&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;以前找工作看书啊，看东西都是很马虎，或者蜻蜓点水。然后面试的时候才发现一问三不知，原因就是没有对问题有深刻的理解，这是面试大忌啊，因此趁着这次机会，有时间可以好好的准备一下，也正好复习一下ios基础知识。&lt;/p&gt;
@@ -192,6 +219,7 @@
 &lt;li&gt;9.Restful架构&lt;/li&gt;
 &lt;li&gt;10.请分析下SDWebImage的原理&lt;/li&gt;
 &lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h3 id=&quot;1如何追踪app崩溃率，如何解决线上闪退&quot;&gt;&lt;a href=&quot;#1如何追踪app崩溃率，如何解决线上闪退&quot; class=&quot;headerlink&quot; title=&quot;1如何追踪app崩溃率，如何解决线上闪退&quot;&gt;&lt;/a&gt;&lt;strong&gt;1如何追踪app崩溃率，如何解决线上闪退&lt;/strong&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;我的理解：&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;2-什么是事件响应链，点击屏幕时是如何互动的，事件的传递。&quot;&gt;&lt;a href=&quot;#2-什么是事件响应链，点击屏幕时是如何互动的，事件的传递。&quot; class=&quot;headerlink&quot; title=&quot;2.什么是事件响应链，点击屏幕时是如何互动的，事件的传递。&quot;&gt;&lt;/a&gt;&lt;strong&gt;2.什么是事件响应链，点击屏幕时是如何互动的，事件的传递。&lt;/strong&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;我的理解：&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;3-Run-Loop是什么，使用的目的，何时使用和关注点。&quot;&gt;&lt;a href=&quot;#3-Run-Loop是什么，使用的目的，何时使用和关注点。&quot; class=&quot;headerlink&quot; title=&quot;3.Run Loop是什么，使用的目的，何时使用和关注点。&quot;&gt;&lt;/a&gt;&lt;strong&gt;3.Run Loop是什么，使用的目的，何时使用和关注点。&lt;/strong&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;我的理解：&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -203,7 +231,20 @@
     <summary type="html">
     
       &lt;p&gt;&lt;strong&gt;想不到这么快就要开始找工作了，生活不易啊，人艰不拆&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以前找工作看书啊，看东西都是很马虎，或者蜻蜓点水。然后面试的时候才发现一问三不知，原因就是没有对问题有深刻的理解，这是面试大忌啊，因此趁着这次机会，有时间可以好好的准备一下，
+&lt;p&gt;以前找工作看书啊，看东西都是很马虎，或者蜻蜓点水。然后面试的时候才发现一问三不知，原因就是没有对问题有深刻的理解，这是面试大忌啊，因此趁着这次机会，有时间可以好好的准备一下，也正好复习一下ios基础知识。&lt;/p&gt;
+&lt;p&gt;下面的试题取自&lt;a href=&quot;http://www.codeceo.com/article/ios-interview-1.html&quot;&gt;那些著名或非著名的iOS面试题（上）&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1如何追踪app崩溃率，如何解决线上闪退&lt;/li&gt;
+&lt;li&gt;2.什么是事件响应链，点击屏幕时是如何互动的，事件的传递&lt;/li&gt;
+&lt;li&gt;3.Run Loop是什么，使用的目的，何时使用和关注点&lt;/li&gt;
+&lt;li&gt;4.ARC和MRC&lt;/li&gt;
+&lt;li&gt;5.线程和进程&lt;/li&gt;
+&lt;li&gt;6.平常常用的多线程处理方式及优缺点&lt;/li&gt;
+&lt;li&gt;7.大量数据表的优化方案&lt;/li&gt;
+&lt;li&gt;8.常用到的动画库&lt;/li&gt;
+&lt;li&gt;9.Restful架构&lt;/li&gt;
+&lt;li&gt;10.请分析下SDWebImage的原理&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -284,10 +325,11 @@
     <link href="http://yoursite.com/2016/07/13/cocoapods-setup/"/>
     <id>http://yoursite.com/2016/07/13/cocoapods-setup/</id>
     <published>2016-07-12T22:28:16.000Z</published>
-    <updated>2016-07-15T10:24:26.000Z</updated>
+    <updated>2016-07-16T07:55:42.000Z</updated>
     
-    <content type="html">&lt;p&gt;sdfdsfsd&lt;br&gt;sdfdsfsd&lt;/p&gt;
-&lt;h1 id=&quot;sdfsdf&quot;&gt;&lt;a href=&quot;#sdfsdf&quot; class=&quot;headerlink&quot; title=&quot;sdfsdf&quot;&gt;&lt;/a&gt;sdfsdf&lt;/h1&gt;&lt;h3 id=&quot;cocoapods-install&quot;&gt;&lt;a href=&quot;#cocoapods-install&quot; class=&quot;headerlink&quot; title=&quot;cocoapods install&quot;&gt;&lt;/a&gt;cocoapods install&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gem install cocoapods&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;pod setup&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    <content type="html">&lt;p&gt;cocoapods现在是ios工程的标配了，不会cocoapods都不好意思说自己是ios开发了，其实现在包管理的概念很普遍，比如像node有npm，ruby 有gem， swift 也有自己的package管理工具，对ios工程来说，cocoapods就是管理第三方库的工具。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;cocoapods-install&quot;&gt;&lt;a href=&quot;#cocoapods-install&quot; class=&quot;headerlink&quot; title=&quot;cocoapods install&quot;&gt;&lt;/a&gt;cocoapods install&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gem install cocoapods&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;pod setup&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;如果不能访问gem源的话建议使用淘宝的源&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gem sources --remove https://rubygems.org/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gem sources -a https://ruby.taobao.org/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gem sources -l&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;cocoapods基本使用&quot;&gt;&lt;a href=&quot;#cocoapods基本使用&quot; class=&quot;headerlink&quot; title=&quot;cocoapods基本使用&quot;&gt;&lt;/a&gt;cocoapods基本使用&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;touch Podfile&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -299,8 +341,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;sdfdsfsd&lt;br&gt;sdfdsfsd&lt;/p&gt;
-&lt;h1 id=&quot;sdfsdf&quot;&gt;&lt;a href=&quot;#sdfsdf&quot; class=&quot;headerlink&quot; title=&quot;sdfsdf&quot;&gt;&lt;/a&gt;sdfsdf&lt;/h1&gt;&lt;h3 id=&quot;cocoapods-install&quot;&gt;&lt;a
+      &lt;p&gt;cocoapods现在是ios工程的标配了，不会cocoapods都不好意思说自己是ios开发了，其实现在包管理的概念很普遍，比如像node有npm，ruby 有gem， swift 也有自己的package管理工具，对ios工程来说，cocoapods就是管理第三方库的工具。&lt;/p&gt;
     
     </summary>
     
@@ -358,7 +399,7 @@
     <link href="http://yoursite.com/2016/07/10/LightSword-setup/"/>
     <id>http://yoursite.com/2016/07/10/LightSword-setup/</id>
     <published>2016-07-10T13:54:20.000Z</published>
-    <updated>2016-07-11T04:28:36.000Z</updated>
+    <updated>2016-07-16T13:10:35.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;LightSword&lt;/li&gt;
@@ -463,9 +504,11 @@
     <link href="http://yoursite.com/2016/07/10/install-shadowsocks/"/>
     <id>http://yoursite.com/2016/07/10/install-shadowsocks/</id>
     <published>2016-07-10T05:35:23.000Z</published>
-    <updated>2016-07-14T16:09:40.000Z</updated>
+    <updated>2016-07-16T13:08:14.000Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;翻墙是一项每个开发人员必备的技能，不管是自己搭建vpn也好，还是买vpn，或者shadowsocks，经过我这几年的翻墙经验来说，vpn及其不稳定，可能是被GFW干扰太严重了，ss倒是很坚挺，现在我都基本上用ss了，稳定，而且很有保障。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[pyenv]&lt;/li&gt;
 &lt;li&gt;[python 2.7.11]&lt;/li&gt;
@@ -483,11 +526,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[pyenv]&lt;/li&gt;
-&lt;li&gt;[python 2.7.11]&lt;/li&gt;
-&lt;li&gt;[shado
+      &lt;p&gt;翻墙是一项每个开发人员必备的技能，不管是自己搭建vpn也好，还是买vpn，或者shadowsocks，经过我这几年的翻墙经验来说，vpn及其不稳定，可能是被GFW干扰太严重了，ss倒是很坚挺，现在我都基本上用ss了，稳定，而且很有保障。&lt;/p&gt;
     
     </summary>
     
@@ -580,11 +619,15 @@
     <link href="http://yoursite.com/2016/06/08/hexo-install-blog/"/>
     <id>http://yoursite.com/2016/06/08/hexo-install-blog/</id>
     <published>2016-06-08T03:02:13.000Z</published>
-    <updated>2016-07-14T16:26:38.000Z</updated>
+    <updated>2016-07-16T13:05:02.000Z</updated>
     
-    <content type="html"></content>
+    <content type="html">&lt;p&gt;记得以前大学的时候一直想搭建自己的博客，可是因为这样那样的原因总是不能够完成，后来听说了github能搭建静态的博客，感觉蛮新鲜的，那个时候&lt;strong&gt;jekyll&lt;/strong&gt;的主题主题不是很多，就没用，就用了&lt;strong&gt;hexo&lt;/strong&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+</content>
     
     <summary type="html">
+    
+      &lt;p&gt;记得以前大学的时候一直想搭建自己的博客，可是因为这样那样的原因总是不能够完成，后来听说了github能搭建静态的博客，感觉蛮新鲜的，那个时候&lt;strong&gt;jekyll&lt;/strong&gt;的主题主题不是很多，就没用，就用了&lt;strong&gt;hexo&lt;/strong&gt;&lt;/p&gt;
     
     </summary>
     
@@ -598,9 +641,10 @@
     <link href="http://yoursite.com/2016/05/08/hello-world/"/>
     <id>http://yoursite.com/2016/05/08/hello-world/</id>
     <published>2016-05-08T03:02:13.000Z</published>
-    <updated>2016-07-14T16:26:12.000Z</updated>
+    <updated>2016-07-16T13:01:52.000Z</updated>
     
     <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -613,7 +657,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
     
     </summary>
     
