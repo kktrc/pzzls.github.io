@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-18T02:39:38.000Z</updated>
+  <updated>2016-07-18T03:30:33.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,73 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解析仿礼物说这个App</title>
+    <link href="http://yoursite.com/2016/07/18/analysy-fang-liwushuo-work/"/>
+    <id>http://yoursite.com/2016/07/18/analysy-fang-liwushuo-work/</id>
+    <published>2016-07-18T02:51:15.000Z</published>
+    <updated>2016-07-18T03:30:33.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Read the Fucking Source Code!Linus在回答有人提出的Minix的一个问题时，第一句话就是RTFSC，这就是这句话的由来。Source Code直接反映了一个代码的运行方式，阅读源码永远是最有效的学习方式。今天我只是想作为一个观众解析一下这个源代码，也学习一下怎么样阅读源码。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;code&gt;github仓库地址&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/HHuiHao/liwushuo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;首先让我们来看一下目录结构&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://o6y686hwm.bkt.clouddn.com/liwushuo1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;很标准的iOS工程目录:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Liwushuo.xcodeproj:我叫他工程文件，是我们创建iOS工程时创建的目录，主要内容是关于项目的设置，依赖等等。&lt;/li&gt;
+&lt;li&gt;Liwushuo.xcworkspace: 这个cocoapods为我们创建的工程目录，内容也差不多。&lt;/li&gt;
+&lt;li&gt;Liwushuo: 这里是源码目录，我们的源码一般都放在这里。&lt;/li&gt;
+&lt;li&gt;Pods:我们依赖的第三方工程的目录。&lt;/li&gt;
+&lt;li&gt;.gitignore: git的忽略文件&lt;/li&gt;
+&lt;li&gt;Podfile:cocoapods的依赖配置文件&lt;/li&gt;
+&lt;li&gt;Podfile.lock:cocoapods的依赖锁定文件&lt;/li&gt;
+&lt;li&gt;README.md:README&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;接下来我们看一下Podfile这个文件，看一下这个工程依赖了哪些第三方工程库:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://o6y686hwm.bkt.clouddn.com/liwushuo2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/SnapKit/SnapKit&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SnapKit&lt;/a&gt; //A Swift Autolayout DSL for iOS &amp;amp; OS X&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/CoderMJLee/MJRefresh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MJRefresh&lt;/a&gt; //An easy way to use pull-to-refresh.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/SVProgressHUD/SVProgressHUD&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SVProgressHUD&lt;/a&gt; //A clean and lightweight progress HUD for your iOS and tvOS app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然后我进入目录执行了pod install(ps: 他这里的pod的版本比较低，应该是0.39，而现在已经是1.0.1了所以我切换了ruby环境用了ruby 2.2.5下的pod 0.39来执行)。&lt;/p&gt;
+&lt;p&gt;运行截图:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://o6y686hwm.bkt.clouddn.com/liwushuo3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;好久没用礼物说了，(不会买，也不知道买给谁…)&lt;/p&gt;
+&lt;p&gt;//待续&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Read the Fucking Source Code!Linus在回答有人提出的Minix的一个问题时，第一句话就是RTFSC，这就是这句话的由来。Source Code直接反映了一个代码的运行方式，阅读源码永远是最有效的学习方式。今天我只是想作为一个观众解析一下这个源代码，也学习一下怎么样阅读源码。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="ios" scheme="http://yoursite.com/tags/ios/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>just talk mvc arc</title>
+    <link href="http://yoursite.com/2016/07/18/just-talk-mvc-arc/"/>
+    <id>http://yoursite.com/2016/07/18/just-talk-mvc-arc/</id>
+    <published>2016-07-18T02:43:34.000Z</published>
+    <updated>2016-07-18T02:43:51.000Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="mvc" scheme="http://yoursite.com/tags/mvc/"/>
+    
+  </entry>
   
   <entry>
     <title>看韩剧《我的鬼神大人》</title>
@@ -40,11 +107,11 @@
   </entry>
   
   <entry>
-    <title>centos安装Swift</title>
+    <title>linux 安装Swift</title>
     <link href="http://yoursite.com/2016/07/17/swift-in-linux/"/>
     <id>http://yoursite.com/2016/07/17/swift-in-linux/</id>
     <published>2016-07-17T09:26:10.000Z</published>
-    <updated>2016-07-17T09:55:45.000Z</updated>
+    <updated>2016-07-18T02:40:58.000Z</updated>
     
     <content type="html">&lt;p&gt;最近想搭建一个自己的博客网站，虽然已经用&lt;strong&gt;hexo&lt;/strong&gt;来搭建了静态博客，但是还是想试一下自己搭建一个动态的博客，也趁机学习一下基本的web开发框架，而且是用swift来开发，也测试一下现在的swift web框架。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -613,85 +680,6 @@
     
     
       <category term="shadowsocks" scheme="http://yoursite.com/tags/shadowsocks/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用npm Babel 6 Webpack 搭建React.js环境</title>
-    <link href="http://yoursite.com/2016/07/08/setting-up-react/"/>
-    <id>http://yoursite.com/2016/07/08/setting-up-react/</id>
-    <published>2016-07-08T13:45:49.000Z</published>
-    <updated>2016-07-10T05:33:24.000Z</updated>
-    
-    <content type="html">&lt;p&gt;FaceBook用React来改变了我们所认为的前端 UI开发，最主要的优点就是组件&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;FaceBook用React来改变了我们所认为的前端 UI开发，最主要的优点就是组件&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-      <category term="react" scheme="http://yoursite.com/tags/react/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一些好的网站</title>
-    <link href="http://yoursite.com/2016/07/08/website/"/>
-    <id>http://yoursite.com/2016/07/08/website/</id>
-    <published>2016-07-08T03:02:13.000Z</published>
-    <updated>2016-07-12T06:55:36.000Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;social&quot;&gt;&lt;a href=&quot;#social&quot; class=&quot;headerlink&quot; title=&quot;social&quot;&gt;&lt;/a&gt;social&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.github.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.stackoverflow.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;stackoverflow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.twitter.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;ios&quot;&gt;&lt;a href=&quot;#ios&quot; class=&quot;headerlink&quot; title=&quot;ios&quot;&gt;&lt;/a&gt;ios&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.appcoda.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;appcoda&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.appcoda.com.tw&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;appcoda.tw&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://swift.gg/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;swiftgg&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;fontend&quot;&gt;&lt;a href=&quot;#fontend&quot; class=&quot;headerlink&quot; title=&quot;fontend&quot;&gt;&lt;/a&gt;fontend&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://imququ.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;imququ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://pinggod.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;pinggod&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://div.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;div.io&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;swift&quot;&gt;&lt;a href=&quot;#swift&quot; class=&quot;headerlink&quot; title=&quot;swift&quot;&gt;&lt;/a&gt;swift&lt;/h2&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mhorga.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;mhorga&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.raywenderlich.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;raywenderlich&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;react-native&quot;&gt;&lt;a href=&quot;#react-native&quot; class=&quot;headerlink&quot; title=&quot;react native&quot;&gt;&lt;/a&gt;react native&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://facebook.github.io/react-native/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;react-native&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://reactnative.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;react-native-cn&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/reactnativecn/react-native-guide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;react-native-guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/19996445&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;react-native构建原生应用&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://js.coach/react-native/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jspatch-react-native&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;backend&quot;&gt;&lt;a href=&quot;#backend&quot; class=&quot;headerlink&quot; title=&quot;backend&quot;&gt;&lt;/a&gt;backend&lt;/h2&gt;&lt;h2 id=&quot;tools&quot;&gt;&lt;a href=&quot;#tools&quot; class=&quot;headerlink&quot; title=&quot;tools&quot;&gt;&lt;/a&gt;tools&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://makeappicon.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;makeappicon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.rgbtohex.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;rgbtohex&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://fast.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;fast&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;blog&quot;&gt;&lt;a href=&quot;#blog&quot; class=&quot;headerlink&quot; title=&quot;blog&quot;&gt;&lt;/a&gt;blog&lt;/h2&gt;&lt;h2 id=&quot;person&quot;&gt;&lt;a href=&quot;#person&quot; class=&quot;headerlink&quot; title=&quot;person&quot;&gt;&lt;/a&gt;person&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.patrickbalestra.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;BalestraPatrick&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/onevcat&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Onevcat&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://idlelife.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;idlelife&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;social&quot;&gt;&lt;a href=&quot;#social&quot; class=&quot;headerlink&quot; title=&quot;social&quot;&gt;&lt;/a&gt;social&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.github.com&quot; target=&quot;_blank&quot; 
-    
-    </summary>
-    
-    
-      <category term="website" scheme="http://yoursite.com/tags/website/"/>
     
   </entry>
   
