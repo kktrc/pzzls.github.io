@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-16T14:24:43.000Z</updated>
+  <updated>2016-07-18T02:39:38.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,19 +16,73 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>看韩剧《我的鬼神大人》</title>
+    <link href="http://yoursite.com/2016/07/18/oh-my-god-lady/"/>
+    <id>http://yoursite.com/2016/07/18/oh-my-god-lady/</id>
+    <published>2016-07-18T02:11:20.000Z</published>
+    <updated>2016-07-18T02:39:38.000Z</updated>
+    
+    <content type="html">&lt;p&gt;其实我本身对韩剧是毫无兴趣的，因为韩剧很多时候剧情太玛丽苏，但前几天无聊，也算是放松一下，就找了一部韩剧看。剧名叫做《哦我的鬼神大人》（ps:不知道怎么翻译的，根据我对剧情的了解也还好，或许名字叫我的鬼友也不错），其实除了放松之外还是有点启发的，或许对其他人没有启发…&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;剧情&lt;/strong&gt;大概是一个处女鬼附身到了一个女生的身上，去诱惑一个餐厅的主厨，最后成功上位的故事。这应该是最明朗的主线了，至于女鬼找自己的身世，以及剧中的黑暗人物在我看来也只不过是两天暗线用来支撑起剧情的发展。蛮有意思的是，同一个人演绎两种不同的性格差异，一个是活泼开朗，乐于助人，一种是内向，害怕别人。但也就是两种不同的性格差异才撑起来剧情。对我最有启发的也就是在这一点，我们大家都知道一件事，当我们遇到挫折的时候别人都会说要开朗的看待它，这句话说来容易，但是话这种东西很容易遗忘，无法将其具象化。理解本身就是一件很难的事。剧中的人物就不止挫折这么简单了，那是一种从生来就具有的自卑感，从家庭环境，学校环境，社会环境所影响。这种情况下想改变实在是太难了。于是出现了一个女鬼，这个女鬼呢，是一个出生很平常的女生，很底层的人物，但是很乐观开朗，不管遇到什么事都不会慌乱，很自信。完全是和女主性格相左的两个不同人物。剧情就不说了，反正就是那一套。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;人生&lt;/strong&gt;其实我想说的是我们面对人生的方式，总是听见别人对我们说要乐观的对待人生。这句话听得多了也就从来没放在心上，消极的对待人生并没有什么好处，反而是你的自卑感越来越重。生活本就不易，消极是没有意义的。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;其实我本身对韩剧是毫无兴趣的，因为韩剧很多时候剧情太玛丽苏，但前几天无聊，也算是放松一下，就找了一部韩剧看。剧名叫做《哦我的鬼神大人》（ps:不知道怎么翻译的，根据我对剧情的了解也还好，或许名字叫我的鬼友也不错），其实除了放松之外还是有点启发的，或许对其他人没有启发…&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="talks" scheme="http://yoursite.com/tags/talks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centos安装Swift</title>
+    <link href="http://yoursite.com/2016/07/17/swift-in-linux/"/>
+    <id>http://yoursite.com/2016/07/17/swift-in-linux/</id>
+    <published>2016-07-17T09:26:10.000Z</published>
+    <updated>2016-07-17T09:55:45.000Z</updated>
+    
+    <content type="html">&lt;p&gt;最近想搭建一个自己的博客网站，虽然已经用&lt;strong&gt;hexo&lt;/strong&gt;来搭建了静态博客，但是还是想试一下自己搭建一个动态的博客，也趁机学习一下基本的web开发框架，而且是用swift来开发，也测试一下现在的swift web框架。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;code&gt;搭建环境&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;centos 7.2&lt;/li&gt;
+&lt;li&gt;swift &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近想搭建一个自己的博客网站，虽然已经用&lt;strong&gt;hexo&lt;/strong&gt;来搭建了静态博客，但是还是想试一下自己搭建一个动态的博客，也趁机学习一下基本的web开发框架，而且是用swift来开发，也测试一下现在的swift web框架。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="swift" scheme="http://yoursite.com/tags/swift/"/>
+    
+  </entry>
+  
+  <entry>
     <title>读《Web全栈工程师的自我修养》</title>
     <link href="http://yoursite.com/2016/07/16/fullstack-note/"/>
     <id>http://yoursite.com/2016/07/16/fullstack-note/</id>
     <published>2016-07-16T14:19:09.000Z</published>
-    <updated>2016-07-16T14:24:43.000Z</updated>
+    <updated>2016-07-17T09:30:20.000Z</updated>
     
-    <content type="html">&lt;p&gt;全栈工程师这个名词近些年来提到次数很多，以前我的座右铭就是做一个全栈工程师，但是其实那个时候连全栈是什么意思都不知道，总是觉得什么都好奇，python啊，ruby啊，go啊，觉得语言好多，不知该从何学起。当然也导致&lt;/p&gt;
+    <content type="html">&lt;p&gt;全栈工程师这个名词近些年来提到次数很多，以前我的座右铭就是做一个全栈工程师，但是其实那个时候连全栈是什么意思都不知道，总是觉得什么都好奇，python啊，ruby啊，go啊，觉得语言好多，不知该从何学起。当然也导致了一段时间的迷茫，&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;全栈工程师这个名词近些年来提到次数很多，以前我的座右铭就是做一个全栈工程师，但是其实那个时候连全栈是什么意思都不知道，总是觉得什么都好奇，python啊，ruby啊，go啊，觉得语言好多，不知该从何学起。当然也导致&lt;/p&gt;
+      &lt;p&gt;全栈工程师这个名词近些年来提到次数很多，以前我的座右铭就是做一个全栈工程师，但是其实那个时候连全栈是什么意思都不知道，总是觉得什么都好奇，python啊，ruby啊，go啊，觉得语言好多，不知该从何学起。当然也导致了一段时间的迷茫，&lt;/p&gt;
     
     </summary>
     
@@ -42,7 +96,7 @@
     <link href="http://yoursite.com/2016/07/16/blog-arrange/"/>
     <id>http://yoursite.com/2016/07/16/blog-arrange/</id>
     <published>2016-07-16T03:41:55.000Z</published>
-    <updated>2016-07-16T14:15:49.000Z</updated>
+    <updated>2016-07-17T14:25:30.000Z</updated>
     
     <content type="html">&lt;p&gt;整理一些博客列表&lt;/p&gt;
 &lt;p&gt;自己从毕业以后就一直从事App端开发，基本上没有接触过其他的，比如Web端，后端，h5端，整理的这些博客以备后用，虽然不想专太多，了解一下还是好的。&lt;/p&gt;
@@ -56,6 +110,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;oc&quot;&gt;&lt;a href=&quot;#oc&quot; class=&quot;headerlink&quot; title=&quot;oc&quot;&gt;&lt;/a&gt;oc&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://skyline75489.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;skyline75489&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.sunnyxx.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;sunnyxx&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;android&quot;&gt;&lt;a href=&quot;#android&quot; class=&quot;headerlink&quot; title=&quot;android&quot;&gt;&lt;/a&gt;android&lt;/h2&gt;&lt;h2 id=&quot;前端&quot;&gt;&lt;a href=&quot;#前端&quot; class=&quot;headerlink&quot; title=&quot;前端&quot;&gt;&lt;/a&gt;前端&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://imququ.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jerry Qu&lt;/a&gt;&lt;/li&gt;
@@ -400,7 +455,7 @@
     <link href="http://yoursite.com/2016/07/11/nginx-proxy-netwotk/"/>
     <id>http://yoursite.com/2016/07/11/nginx-proxy-netwotk/</id>
     <published>2016-07-11T06:03:55.000Z</published>
-    <updated>2016-07-15T09:30:36.000Z</updated>
+    <updated>2016-07-17T14:29:15.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;Nginx-做http代理&quot;&gt;&lt;a href=&quot;#Nginx-做http代理&quot; class=&quot;headerlink&quot; title=&quot;Nginx 做http代理&quot;&gt;&lt;/a&gt;Nginx 做http代理&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;编辑/etc/nginx/nginx.conf&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;server&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       listen          80;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       server_name     bhond.com; //本地访问域名&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       location / &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               proxy_pass              http://www.t66y.com; //你懂的&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               proxy_redirect          off;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               proxy_set_header        X-Real-IP       $remote_addr;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -409,6 +464,7 @@
 &lt;h3 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/d5114a2a2052&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Centos下 Nginx安装与配置&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.zjian.me/centos/nginx反向代理google/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;nginx反向代理google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://liam0205.me/2015/09/07/reverse-proxy-to-get-access-to-gist/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用 Nginx 搭建反向代理以访问 Gist&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     
@@ -636,58 +692,6 @@
     
     
       <category term="website" scheme="http://yoursite.com/tags/website/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo搭建博客</title>
-    <link href="http://yoursite.com/2016/06/08/hexo-install-blog/"/>
-    <id>http://yoursite.com/2016/06/08/hexo-install-blog/</id>
-    <published>2016-06-08T03:02:13.000Z</published>
-    <updated>2016-07-16T13:05:02.000Z</updated>
-    
-    <content type="html">&lt;p&gt;记得以前大学的时候一直想搭建自己的博客，可是因为这样那样的原因总是不能够完成，后来听说了github能搭建静态的博客，感觉蛮新鲜的，那个时候&lt;strong&gt;jekyll&lt;/strong&gt;的主题主题不是很多，就没用，就用了&lt;strong&gt;hexo&lt;/strong&gt;&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;记得以前大学的时候一直想搭建自己的博客，可是因为这样那样的原因总是不能够完成，后来听说了github能搭建静态的博客，感觉蛮新鲜的，那个时候&lt;strong&gt;jekyll&lt;/strong&gt;的主题主题不是很多，就没用，就用了&lt;strong&gt;hexo&lt;/strong&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2016/05/08/hello-world/"/>
-    <id>http://yoursite.com/2016/05/08/hello-world/</id>
-    <published>2016-05-08T03:02:13.000Z</published>
-    <updated>2016-07-16T13:01:52.000Z</updated>
-    
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
   </entry>
   
