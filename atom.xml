@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-18T03:39:21.000Z</updated>
+  <updated>2016-07-19T04:08:59.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>UICollectionViews Now Have Easy Reordering(译)</title>
+    <link href="http://yoursite.com/2016/07/19/UICollectionViews-Now-Have-Easy-Reordering/"/>
+    <id>http://yoursite.com/2016/07/19/UICollectionViews-Now-Have-Easy-Reordering/</id>
+    <published>2016-07-19T03:07:04.000Z</published>
+    <updated>2016-07-19T04:08:59.000Z</updated>
+    
+    <content type="html">&lt;p&gt;译自&lt;a href=&quot;http://nshint.io/blog/2015/07/16/uicollectionviews-now-have-easy-reordering/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UICollectionViews Now Have Easy Reordering&lt;/a&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;UICollectionView-现在可以很容易的排序&quot;&gt;&lt;a href=&quot;#UICollectionView-现在可以很容易的排序&quot; class=&quot;headerlink&quot; title=&quot;UICollectionView 现在可以很容易的排序&quot;&gt;&lt;/a&gt;UICollectionView 现在可以很容易的排序&lt;/h3&gt;&lt;p&gt;我特别喜欢&lt;code&gt;UICollectionView&lt;/code&gt;。UICollectionView比它的兄长&lt;code&gt;UITableView&lt;/code&gt;更加容易定制。现在我使用collection view的频率要比table view要多。在iOS 9中它排序更加容易(增加了一些API)。在之前的时候如果要实现排序的话要做很多的工作。接下来让我们来看一下API。你可以在&lt;a href=&quot;https://github.com/nshintio/uicollectionview-reordering&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;找到伴随的Xcode工程。&lt;/p&gt;
+&lt;p&gt;最简单的方式是使用&lt;code&gt;UICollectionViewController&lt;/code&gt;来添加排序操作。&lt;code&gt;UICollectionViewController&lt;/code&gt;现在有一个新的属性叫&lt;code&gt;installsStandardGestureForInteractiveMovement&lt;/code&gt;,这个属性增加了标准的手势来对单元格进行排序。这个属性默认是&lt;code&gt;true&lt;/code&gt;,这就意味着我们只要重写一个方法就可以对单元格进行排序了。&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;override func collectionView(collectionView: UICollectionView,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   moveItemAtIndexPath sourceIndexPath: NSIndexPath,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   toIndexPath destinationIndexPath: NSIndexPath) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   // move your data order&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;视图中的collection view 推断单元格可以被移动，因为&lt;code&gt;moveItemAtIndexPath&lt;/code&gt;被重写了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://o6y686hwm.bkt.clouddn.com/1.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如果我们要使用&lt;code&gt;UIViewController&lt;/code&gt;和&lt;code&gt;collection view&lt;/code&gt;来实现单元格排序的话会变得稍微复杂一点。&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;override func viewDidLoad() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   super.viewDidLoad()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           longPressGesture = UILongPressGestureRecognizer(target: self, action: &amp;quot;handleLongGesture:&amp;quot;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       self.collectionView.addGestureRecognizer(longPressGesture)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   func handleLongGesture(gesture: UILongPressGestureRecognizer) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       switch(gesture.state) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       case UIGestureRecognizerState.Began:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           guard let selectedIndexPath = self.collectionView.indexPathForItemAtPoint(gesture.locationInView(self.collectionView)) else &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               break&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           collectionView.beginInteractiveMovementForItemAtIndexPath(selectedIndexPath)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       case UIGestureRecognizerState.Changed:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           collectionView.updateInteractiveMovementTargetPosition(gesture.locationInView(gesture.view!))&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       case UIGestureRecognizerState.Ended:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           collectionView.endInteractiveMovement()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       default:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           collectionView.cancelInteractiveMovement()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;译自&lt;a href=&quot;http://nshint.io/blog/2015/07/16/uicollectionviews-now-have-easy-reordering/&quot;&gt;UICollectionViews Now Have Easy Reordering&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="uicollectionview" scheme="http://yoursite.com/tags/uicollectionview/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ViewController 中的传值问题</title>
+    <link href="http://yoursite.com/2016/07/18/ios-vc-pass-value/"/>
+    <id>http://yoursite.com/2016/07/18/ios-vc-pass-value/</id>
+    <published>2016-07-18T09:51:29.000Z</published>
+    <updated>2016-07-19T02:33:59.000Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="ios" scheme="http://yoursite.com/tags/ios/"/>
+    
+  </entry>
   
   <entry>
     <title>解析仿礼物说这个App</title>
@@ -483,7 +529,7 @@
     <link href="http://yoursite.com/2016/07/13/cocoapods-setup/"/>
     <id>http://yoursite.com/2016/07/13/cocoapods-setup/</id>
     <published>2016-07-12T22:28:16.000Z</published>
-    <updated>2016-07-16T07:55:42.000Z</updated>
+    <updated>2016-07-18T08:39:40.000Z</updated>
     
     <content type="html">&lt;p&gt;cocoapods现在是ios工程的标配了，不会cocoapods都不好意思说自己是ios开发了，其实现在包管理的概念很普遍，比如像node有npm，ruby 有gem， swift 也有自己的package管理工具，对ios工程来说，cocoapods就是管理第三方库的工具。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -494,6 +540,7 @@
 &lt;h3 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://guides.cocoapods.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cocoapods Guides&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.devtang.com/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;用CocoaPods做iOS程序的依赖管理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code4app.com/article/cocoapods-install-usage&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;cocoapods-install-usage&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     
@@ -620,77 +667,6 @@
     
     
       <category term="ngrok" scheme="http://yoursite.com/tags/ngrok/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>搭建ruby环境</title>
-    <link href="http://yoursite.com/2016/07/10/ruby-environment-setup/"/>
-    <id>http://yoursite.com/2016/07/10/ruby-environment-setup/</id>
-    <published>2016-07-10T06:50:00.000Z</published>
-    <updated>2016-07-11T05:29:19.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://o6y686hwm.bkt.clouddn.com/ruby1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;搭建ruby环境&quot;&gt;&lt;a href=&quot;#搭建ruby环境&quot; class=&quot;headerlink&quot; title=&quot;搭建ruby环境&quot;&gt;&lt;/a&gt;搭建ruby环境&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;rvm&lt;/li&gt;
-&lt;li&gt;ruby&lt;/li&gt;
-&lt;li&gt;rails&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;安装rvm&quot;&gt;&lt;a href=&quot;#安装rvm&quot; class=&quot;headerlink&quot; title=&quot;安装rvm&quot;&gt;&lt;/a&gt;安装rvm&lt;/h3&gt;&lt;p&gt;可以直接上官网上看&lt;a href=&quot;https://rvm.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;rvm&lt;/a&gt;,或者上&lt;a href=&quot;https://github.com/rvm/rvm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;\curl -sSL https://get.rvm.io | bash -s stable&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;但是有些机器上没有gpg，比如mac，所以需要先安装gpg&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;brew install gpg&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;安装依赖环境&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;rvm requirements&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;安装ruby&quot;&gt;&lt;a href=&quot;#安装ruby&quot; class=&quot;headerlink&quot; title=&quot;安装ruby&quot;&gt;&lt;/a&gt;安装ruby&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;rvm install 2.3.1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;rvm use 2.3.1 --default&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;安装rails&quot;&gt;&lt;a href=&quot;#安装rails&quot; class=&quot;headerlink&quot; title=&quot;安装rails&quot;&gt;&lt;/a&gt;安装rails&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gem install rails&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o6y686hwm.bkt.clouddn.com/ruby1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;搭建ruby环境&quot;&gt;&lt;a href=&quot;#搭建ruby环境&quot; class=&quot;headerlink&quot; title=&quot;搭建ruby环
-    
-    </summary>
-    
-    
-      <category term="ruby" scheme="http://yoursite.com/tags/ruby/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安装shadowsocks</title>
-    <link href="http://yoursite.com/2016/07/10/install-shadowsocks/"/>
-    <id>http://yoursite.com/2016/07/10/install-shadowsocks/</id>
-    <published>2016-07-10T05:35:23.000Z</published>
-    <updated>2016-07-16T13:08:14.000Z</updated>
-    
-    <content type="html">&lt;p&gt;翻墙是一项每个开发人员必备的技能，不管是自己搭建vpn也好，还是买vpn，或者shadowsocks，经过我这几年的翻墙经验来说，vpn及其不稳定，可能是被GFW干扰太严重了，ss倒是很坚挺，现在我都基本上用ss了，稳定，而且很有保障。&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[pyenv]&lt;/li&gt;
-&lt;li&gt;[python 2.7.11]&lt;/li&gt;
-&lt;li&gt;[shadowsocks]&lt;/li&gt;
-&lt;li&gt;[配置]&lt;/li&gt;
-&lt;li&gt;[启动]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;pyenv&quot;&gt;&lt;a href=&quot;#pyenv&quot; class=&quot;headerlink&quot; title=&quot;pyenv&quot;&gt;&lt;/a&gt;pyenv&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git clone https://github.com/yyuu/pyenv.git ~/.pyenv&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ echo &amp;apos;export PYENV_ROOT=&amp;quot;$HOME/.pyenv&amp;quot;&amp;apos; &amp;gt;&amp;gt; ~/.bash_profile&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ echo &amp;apos;export PATH=&amp;quot;$PYENV_ROOT/bin:$PATH&amp;quot;&amp;apos; &amp;gt;&amp;gt; ~/.bash_profile&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ echo &amp;apos;eval &amp;quot;$(pyenv init -)&amp;quot;&amp;apos; &amp;gt;&amp;gt; ~/.bash_profile&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ exec $SHELL&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;python-2-7-11&quot;&gt;&lt;a href=&quot;#python-2-7-11&quot; class=&quot;headerlink&quot; title=&quot;python 2.7.11&quot;&gt;&lt;/a&gt;python 2.7.11&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;pyenv install 2.7.11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;pyenv global 2.7.11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;shasowsocks&quot;&gt;&lt;a href=&quot;#shasowsocks&quot; class=&quot;headerlink&quot; title=&quot;shasowsocks&quot;&gt;&lt;/a&gt;shasowsocks&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;pip install shadowsocks&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;echo &amp;gt;&amp;gt; /etc/shadowsocks.json &amp;lt;&amp;lt; EOF&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;quot;server&amp;quot;:&amp;quot;服务器ip&amp;quot;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;quot;server_port&amp;quot;:8388,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;quot;password&amp;quot;:&amp;quot;123456&amp;quot;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;quot;timeout&amp;quot;:300,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;quot;method&amp;quot;:&amp;quot;aes-256-cfb&amp;quot;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;quot;fast_open&amp;quot;:false,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;quot;workers&amp;quot;: 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;EOF&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;启动&quot;&gt;&lt;a href=&quot;#启动&quot; class=&quot;headerlink&quot; title=&quot;启动&quot;&gt;&lt;/a&gt;启动&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ssserver -c /etc/shadowsocks.json -d start&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;开机启动&quot;&gt;&lt;a href=&quot;#开机启动&quot; class=&quot;headerlink&quot; title=&quot;开机启动&quot;&gt;&lt;/a&gt;开机启动&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;echo &amp;gt;&amp;gt; /etc/rc.local &amp;lt;&amp;lt; EOF&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ssserver -c /etc/shadowsocks.json -d start&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;EOF&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;翻墙是一项每个开发人员必备的技能，不管是自己搭建vpn也好，还是买vpn，或者shadowsocks，经过我这几年的翻墙经验来说，vpn及其不稳定，可能是被GFW干扰太严重了，ss倒是很坚挺，现在我都基本上用ss了，稳定，而且很有保障。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="shadowsocks" scheme="http://yoursite.com/tags/shadowsocks/"/>
     
   </entry>
   

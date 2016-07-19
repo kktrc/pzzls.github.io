@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/07/19/UICollectionViews-Now-Have-Easy-Reordering/</loc>
+    
+    <lastmod>2016-07-19T04:08:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/18/ios-vc-pass-value/</loc>
+    
+    <lastmod>2016-07-19T02:33:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/13/cocoapods-setup/</loc>
+    
+    <lastmod>2016-07-18T08:39:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/07/18/just-talk-mvc-arc/</loc>
     
     <lastmod>2016-07-18T08:21:55.000Z</lastmod>
@@ -131,13 +152,6 @@
     <loc>http://yoursite.com/2016/05/08/hello-world/</loc>
     
     <lastmod>2016-07-16T13:01:52.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/07/13/cocoapods-setup/</loc>
-    
-    <lastmod>2016-07-16T07:55:42.000Z</lastmod>
     
   </url>
   
