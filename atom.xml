@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-20T03:47:41.000Z</updated>
+  <updated>2016-07-20T14:04:58.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/07/20/java-interview-questions/"/>
     <id>http://yoursite.com/2016/07/20/java-interview-questions/</id>
     <published>2016-07-20T03:15:32.000Z</published>
-    <updated>2016-07-20T03:47:41.000Z</updated>
+    <updated>2016-07-20T14:04:58.000Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h3 id=&quot;Java基本概念&quot;&gt;&lt;a href=&quot;#Java基本概念&quot; class=&quot;headerlink&quot; title=&quot;Java基本概念&quot;&gt;&lt;/a&gt;Java基本概念&lt;/h3&gt;&lt;ul&gt;
@@ -77,8 +77,149 @@
 &lt;h3 id=&quot;字符串与数组&quot;&gt;&lt;a href=&quot;#字符串与数组&quot; class=&quot;headerlink&quot; title=&quot;字符串与数组&quot;&gt;&lt;/a&gt;字符串与数组&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;1.字符串创建与存储的机制是什么&lt;/li&gt;
 &lt;li&gt;2.”==”,equals和hashCode有什么区别&lt;/li&gt;
+&lt;li&gt;3.String,StringBuilder,StringBuffer 和StringTokenizer 有什么区别&lt;/li&gt;
+&lt;li&gt;4.Java中数组是不是对象&lt;/li&gt;
+&lt;li&gt;5.数组的初始化方式有哪几种&lt;/li&gt;
+&lt;li&gt;6.length属性与length()方法有什么区别&lt;/li&gt;
 &lt;/ul&gt;
-</content>
+&lt;h3 id=&quot;异常处理&quot;&gt;&lt;a href=&quot;#异常处理&quot; class=&quot;headerlink&quot; title=&quot;异常处理&quot;&gt;&lt;/a&gt;异常处理&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.finally块中的代码什么时候被执行&lt;/li&gt;
+&lt;li&gt;2.异常处理的原理是什么&lt;/li&gt;
+&lt;li&gt;3.运行时异常和普通异常有什么区别&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;输入输出流&quot;&gt;&lt;a href=&quot;#输入输出流&quot; class=&quot;headerlink&quot; title=&quot;输入输出流&quot;&gt;&lt;/a&gt;输入输出流&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.Java IO流的实现机制是什么&lt;/li&gt;
+&lt;li&gt;2.管理文件和目录的类是什么&lt;/li&gt;
+&lt;li&gt;3.Java Socket是什么&lt;/li&gt;
+&lt;li&gt;4.Java NIO是什么&lt;/li&gt;
+&lt;li&gt;5.什么是Java序列化&lt;/li&gt;
+&lt;li&gt;6.System.out.println()方法使用需要注意哪些问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Java平台与内存管理&quot;&gt;&lt;a href=&quot;#Java平台与内存管理&quot; class=&quot;headerlink&quot; title=&quot;Java平台与内存管理&quot;&gt;&lt;/a&gt;Java平台与内存管理&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.为什么说Java是平台独立性语言&lt;/li&gt;
+&lt;li&gt;2.Java平台与其他语言平台有哪些区别&lt;/li&gt;
+&lt;li&gt;3.JVM加载class文件的原理机制是什么&lt;/li&gt;
+&lt;li&gt;4.什么是GC&lt;/li&gt;
+&lt;li&gt;5.Java是否存在内存泄漏问题&lt;/li&gt;
+&lt;li&gt;6.Java中的堆和栈有什么区别&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;容器&quot;&gt;&lt;a href=&quot;#容器&quot; class=&quot;headerlink&quot; title=&quot;容器&quot;&gt;&lt;/a&gt;容器&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.Java Collections框架是什么&lt;/li&gt;
+&lt;li&gt;2.什么是迭代器&lt;/li&gt;
+&lt;li&gt;3.ArrayList,Vector,和LinkedList有什么区别&lt;/li&gt;
+&lt;li&gt;4.HashMap,HashTable,TreeMap和WeakHashMap有哪些区别&lt;/li&gt;
+&lt;li&gt;5.用自定义类型作为HashMap或HashTable的key需要注意哪些问题&lt;/li&gt;
+&lt;li&gt;6.Collection和Collections有什么区别&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;多线程&quot;&gt;&lt;a href=&quot;#多线程&quot; class=&quot;headerlink&quot; title=&quot;多线程&quot;&gt;&lt;/a&gt;多线程&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.什么是线程？它与进程有什么区别？为什么要使用多线程&lt;/li&gt;
+&lt;li&gt;2.同步和异步有什么区别&lt;/li&gt;
+&lt;li&gt;3.如何实现Java多线程&lt;/li&gt;
+&lt;li&gt;4.run()方法和start()方法有什么区别&lt;/li&gt;
+&lt;li&gt;5.多线程同步的实现方法有哪些&lt;/li&gt;
+&lt;li&gt;6.sleep()方法与wait()方法有什么区别&lt;/li&gt;
+&lt;li&gt;7.终止线程的方法有哪些&lt;/li&gt;
+&lt;li&gt;8.synchronized与Lock有什么异同&lt;/li&gt;
+&lt;li&gt;9.什么是守护线程&lt;/li&gt;
+&lt;li&gt;10.join()方法的作用是什么&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Java数据库操作&quot;&gt;&lt;a href=&quot;#Java数据库操作&quot; class=&quot;headerlink&quot; title=&quot;Java数据库操作&quot;&gt;&lt;/a&gt;Java数据库操作&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.如何通过JDBC访问数据库&lt;/li&gt;
+&lt;li&gt;2.JDBC处理事务采用什么方法&lt;/li&gt;
+&lt;li&gt;3.Class.forName的作用是什么&lt;/li&gt;
+&lt;li&gt;4.Statement，PreparedStatement和CallableStatement有什么区别&lt;/li&gt;
+&lt;li&gt;5.getString()方法与getObject()方法有什么区别&lt;/li&gt;
+&lt;li&gt;6.使用JDBC时需要注意哪些问题&lt;/li&gt;
+&lt;li&gt;7.什么是JDO&lt;/li&gt;
+&lt;li&gt;8.JDBC与Hibernate有什么区别&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Java-Web&quot;&gt;&lt;a href=&quot;#Java-Web&quot; class=&quot;headerlink&quot; title=&quot;Java Web&quot;&gt;&lt;/a&gt;Java Web&lt;/h2&gt;&lt;h3 id=&quot;Servlet与JSP&quot;&gt;&lt;a href=&quot;#Servlet与JSP&quot; class=&quot;headerlink&quot; title=&quot;Servlet与JSP&quot;&gt;&lt;/a&gt;Servlet与JSP&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.页面请求的工作流程&lt;/li&gt;
+&lt;li&gt;2.HTTP中GET与POST方法有什么区别&lt;/li&gt;
+&lt;li&gt;3.什么是Servlet&lt;/li&gt;
+&lt;li&gt;4.doPost()方法与doGet方法怎么选择&lt;/li&gt;
+&lt;li&gt;5.什么是Servlet的生命周期&lt;/li&gt;
+&lt;li&gt;6.JSP有哪些优点&lt;/li&gt;
+&lt;li&gt;7.JSP与Servlet有哪些异同&lt;/li&gt;
+&lt;li&gt;8.如何使用JSP与Servlet实现MVC&lt;/li&gt;
+&lt;li&gt;9.Servlet中forward和redirect有什么区别&lt;/li&gt;
+&lt;li&gt;10.JSP的内置对象有哪些&lt;/li&gt;
+&lt;li&gt;11.request对象有哪些方法&lt;/li&gt;
+&lt;li&gt;12.JSP有哪些动作&lt;/li&gt;
+&lt;li&gt;13.JSP中include指令和include动作有什么区别&lt;/li&gt;
+&lt;li&gt;14.会话跟踪技术有哪些&lt;/li&gt;
+&lt;li&gt;15.Web开发中如何指定字符串的编码&lt;/li&gt;
+&lt;li&gt;16.什么是Ajax&lt;/li&gt;
+&lt;li&gt;17.cookie和session有什么区别&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;J2EE与EJB&quot;&gt;&lt;a href=&quot;#J2EE与EJB&quot; class=&quot;headerlink&quot; title=&quot;J2EE与EJB&quot;&gt;&lt;/a&gt;J2EE与EJB&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.什么是J2EE&lt;/li&gt;
+&lt;li&gt;2.J2EE中常用的术语有哪些&lt;/li&gt;
+&lt;li&gt;3.EJB有哪些不同类别&lt;/li&gt;
+&lt;li&gt;4.EJB与Java Bean有什么异同&lt;/li&gt;
+&lt;li&gt;5.EJB有哪些生命周期&lt;/li&gt;
+&lt;li&gt;6.EJB的角色有哪几种&lt;/li&gt;
+&lt;li&gt;7.EJB的开发流程是怎样的&lt;/li&gt;
+&lt;li&gt;8.EJB3.0与EJB2.0有哪些不同之处&lt;/li&gt;
+&lt;li&gt;9.EJB容器有哪些&lt;/li&gt;
+&lt;li&gt;10.EJB规范规定EJB中禁止的操作有哪些&lt;/li&gt;
+&lt;li&gt;11.Web服务器与Web应用服务器有什么区别&lt;/li&gt;
+&lt;li&gt;12.什么是Web Sevice&lt;/li&gt;
+&lt;li&gt;13.SOAP与REST有什么区别&lt;/li&gt;
+&lt;li&gt;14.什么是XML&lt;/li&gt;
+&lt;li&gt;15.数据库连接池的工作机制&lt;/li&gt;
+&lt;li&gt;16.J2EE开发有哪些调优的方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;框架&quot;&gt;&lt;a href=&quot;#框架&quot; class=&quot;headerlink&quot; title=&quot;框架&quot;&gt;&lt;/a&gt;框架&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.什么是Structs框架&lt;/li&gt;
+&lt;li&gt;2.Structs框架响应客户请求的工作流程是什么&lt;/li&gt;
+&lt;li&gt;3.Structs框架的数据验证可分为几种类型&lt;/li&gt;
+&lt;li&gt;4.Form Bean的表单验证流程是什么&lt;/li&gt;
+&lt;li&gt;5.在Structs配置文件中，&lt;action&gt;元素包含哪些属性和子元素&lt;/action&gt;&lt;/li&gt;
+&lt;li&gt;6.ActionForm Bean的作用有哪些&lt;/li&gt;
+&lt;li&gt;7.ActionForm的执行步骤有哪些&lt;/li&gt;
+&lt;li&gt;8.forward与global-forward有什么区别&lt;/li&gt;
+&lt;li&gt;9.Structs如何实现国际化&lt;/li&gt;
+&lt;li&gt;10.Strcuts 1 与Structs 2有哪些区别&lt;/li&gt;
+&lt;li&gt;11.什么是IoC&lt;/li&gt;
+&lt;li&gt;12.什么是AOP&lt;/li&gt;
+&lt;li&gt;13.什么是Spring框架&lt;/li&gt;
+&lt;li&gt;14.什么是Hibernate&lt;/li&gt;
+&lt;li&gt;15.什么是Hibernate的二级缓存&lt;/li&gt;
+&lt;li&gt;16.Hibernate中session的update()和save()和saveOrUpdate()和get()有什么区别&lt;/li&gt;
+&lt;li&gt;17.Hibernate有哪些主键生成策略&lt;/li&gt;
+&lt;li&gt;18.如何实现分页机制&lt;/li&gt;
+&lt;li&gt;19.什么是SSH&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;数据库原理&quot;&gt;&lt;a href=&quot;#数据库原理&quot; class=&quot;headerlink&quot; title=&quot;数据库原理&quot;&gt;&lt;/a&gt;数据库原理&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.SQL语言的功能有哪些&lt;/li&gt;
+&lt;li&gt;2.内连接和外连接有什么区别&lt;/li&gt;
+&lt;li&gt;3.什么是事务&lt;/li&gt;
+&lt;li&gt;4.什么是存储过程？它与函数有什么区别和联系&lt;/li&gt;
+&lt;li&gt;5.各种范式有什么区别&lt;/li&gt;
+&lt;li&gt;6.什么是触发器&lt;/li&gt;
+&lt;li&gt;7.什么是游标&lt;/li&gt;
+&lt;li&gt;8.如果数据库日志满了，会出现什么情况&lt;/li&gt;
+&lt;li&gt;9.union和union all有什么区别&lt;/li&gt;
+&lt;li&gt;10.什么是视图&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;设计模式&quot;&gt;&lt;a href=&quot;#设计模式&quot; class=&quot;headerlink&quot; title=&quot;设计模式&quot;&gt;&lt;/a&gt;设计模式&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.什么是单例模式&lt;/li&gt;
+&lt;li&gt;2.什么是工厂模式&lt;/li&gt;
+&lt;li&gt;3.什么是适配器模式&lt;/li&gt;
+&lt;li&gt;4.什么是观察者模式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;数据结构与算法&quot;&gt;&lt;a href=&quot;#数据结构与算法&quot; class=&quot;headerlink&quot; title=&quot;数据结构与算法&quot;&gt;&lt;/a&gt;数据结构与算法&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.链表&lt;/li&gt;
+&lt;li&gt;2.栈与队列&lt;/li&gt;
+&lt;li&gt;3.排序&lt;/li&gt;
+&lt;li&gt;4.位运算&lt;/li&gt;
+&lt;li&gt;5.数组&lt;/li&gt;
+&lt;li&gt;6.字符串&lt;/li&gt;
+&lt;li&gt;7.二叉树&lt;/li&gt;
+&lt;li&gt;8.其他&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;海量数据处理&quot;&gt;&lt;a href=&quot;#海量数据处理&quot; class=&quot;headerlink&quot; title=&quot;海量数据处理&quot;&gt;&lt;/a&gt;海量数据处理&lt;/h3&gt;</content>
     
     <summary type="html">
     
