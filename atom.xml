@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-19T05:28:41.000Z</updated>
+  <updated>2016-07-20T03:47:41.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,22 +16,123 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Java程序员面试笔试题(备份)</title>
+    <link href="http://yoursite.com/2016/07/20/java-interview-questions/"/>
+    <id>http://yoursite.com/2016/07/20/java-interview-questions/</id>
+    <published>2016-07-20T03:15:32.000Z</published>
+    <updated>2016-07-20T03:47:41.000Z</updated>
+    
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;Java基本概念&quot;&gt;&lt;a href=&quot;#Java基本概念&quot; class=&quot;headerlink&quot; title=&quot;Java基本概念&quot;&gt;&lt;/a&gt;Java基本概念&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.Java语言有哪些优点？&lt;/li&gt;
+&lt;li&gt;2.Java与C/C++有什么异同？&lt;/li&gt;
+&lt;li&gt;3.为什么需要public static void main(String[] args) 这个方法？&lt;/li&gt;
+&lt;li&gt;4.如何实现在main()方法执行前输出”Hello World”&lt;/li&gt;
+&lt;li&gt;5.Java程序初始化的顺序&lt;/li&gt;
+&lt;li&gt;6.Java中的作用域有哪些&lt;/li&gt;
+&lt;li&gt;7.一个Java文件中是否可以定义多个类&lt;/li&gt;
+&lt;li&gt;8.什么是构造函数&lt;/li&gt;
+&lt;li&gt;9.为什么Java中有些接口没有任何方法&lt;/li&gt;
+&lt;li&gt;10.Java 中的clone方法有什么作用&lt;/li&gt;
+&lt;li&gt;11.什么是反射机制&lt;/li&gt;
+&lt;li&gt;12.package有什么作用&lt;/li&gt;
+&lt;li&gt;13.如何实现类似于C语言中函数指针的功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;面向对象技术&quot;&gt;&lt;a href=&quot;#面向对象技术&quot; class=&quot;headerlink&quot; title=&quot;面向对象技术&quot;&gt;&lt;/a&gt;面向对象技术&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.面向对象与面向过程有什么区别&lt;/li&gt;
+&lt;li&gt;2.面向对象有哪些特征&lt;/li&gt;
+&lt;li&gt;3.面向对象的开发方式有什么优点&lt;/li&gt;
+&lt;li&gt;4.什么是继承&lt;/li&gt;
+&lt;li&gt;5.组合和继承有什么区别&lt;/li&gt;
+&lt;li&gt;6.多态的实现机制&lt;/li&gt;
+&lt;li&gt;7.重载和覆盖有什么区别&lt;/li&gt;
+&lt;li&gt;8.抽象类(abstract class)与接口(interface)有什么异同&lt;/li&gt;
+&lt;li&gt;9.内部类有哪些&lt;/li&gt;
+&lt;li&gt;10.如何获取父类的类名&lt;/li&gt;
+&lt;li&gt;11.this 和 super有什么区别&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;关键字&quot;&gt;&lt;a href=&quot;#关键字&quot; class=&quot;headerlink&quot; title=&quot;关键字&quot;&gt;&lt;/a&gt;关键字&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.变量命名有哪些规则&lt;/li&gt;
+&lt;li&gt;2.break,continue,以及return有什么区别&lt;/li&gt;
+&lt;li&gt;3.final ,finally,finalize有什么区别&lt;/li&gt;
+&lt;li&gt;4.assert有什么作用&lt;/li&gt;
+&lt;li&gt;5.static关键字有哪些作用&lt;/li&gt;
+&lt;li&gt;6.使用switch时有哪些注意事项&lt;/li&gt;
+&lt;li&gt;7.volatile有什么作用&lt;/li&gt;
+&lt;li&gt;8.instanceof有什么作用&lt;/li&gt;
+&lt;li&gt;9.strictfp有什么作用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;基本类型与运算&quot;&gt;&lt;a href=&quot;#基本类型与运算&quot; class=&quot;headerlink&quot; title=&quot;基本类型与运算&quot;&gt;&lt;/a&gt;基本类型与运算&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.Java提供了哪些基本数据类型&lt;/li&gt;
+&lt;li&gt;2.什么是不可变类&lt;/li&gt;
+&lt;li&gt;3.值传递与引用传递有哪些区别&lt;/li&gt;
+&lt;li&gt;4.不同数据类型的转换有哪些规则&lt;/li&gt;
+&lt;li&gt;5.强制类型转换的注意事项有哪些&lt;/li&gt;
+&lt;li&gt;6.运算符优先级是什么&lt;/li&gt;
+&lt;li&gt;7.Math类中round，ceil和floor方法的功能各是什么&lt;/li&gt;
+&lt;li&gt;8.++i与i++有什么区别&lt;/li&gt;
+&lt;li&gt;9.如何实现无符号数的右移操作&lt;/li&gt;
+&lt;li&gt;10.char型变量中是否可以存储一个中文汉字&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;字符串与数组&quot;&gt;&lt;a href=&quot;#字符串与数组&quot; class=&quot;headerlink&quot; title=&quot;字符串与数组&quot;&gt;&lt;/a&gt;字符串与数组&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.字符串创建与存储的机制是什么&lt;/li&gt;
+&lt;li&gt;2.”==”,equals和hashCode有什么区别&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;Java基本概念&quot;&gt;&lt;a href=&quot;#Java基本概念&quot; class=&quot;headerlink&quot; title=&quot;Java基本概念&quot;&gt;&lt;/a&gt;Java基本概念&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.Java语言有哪些优点？&lt;/li&gt;
+&lt;l
+    
+    </summary>
+    
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最好的时代，同时也是最坏的时代</title>
+    <link href="http://yoursite.com/2016/07/19/well-period-bad-period/"/>
+    <id>http://yoursite.com/2016/07/19/well-period-bad-period/</id>
+    <published>2016-07-19T14:40:42.000Z</published>
+    <updated>2016-07-19T16:08:39.000Z</updated>
+    
+    <content type="html">&lt;p&gt;这是最好的时代，也是最坏的时代。为什么我会这么说呢，&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是最好的时代，也是最坏的时代。为什么我会这么说呢，&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>UICollectionViews Now Have Easy Reordering(译)</title>
     <link href="http://yoursite.com/2016/07/19/UICollectionViews-Now-Have-Easy-Reordering/"/>
     <id>http://yoursite.com/2016/07/19/UICollectionViews-Now-Have-Easy-Reordering/</id>
     <published>2016-07-19T03:07:04.000Z</published>
-    <updated>2016-07-19T05:28:41.000Z</updated>
+    <updated>2016-07-19T09:18:49.000Z</updated>
     
     <content type="html">&lt;p&gt;译自&lt;a href=&quot;http://nshint.io/blog/2015/07/16/uicollectionviews-now-have-easy-reordering/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UICollectionViews Now Have Easy Reordering&lt;/a&gt;&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h3 id=&quot;UICollectionView-现在可以很容易的重排&quot;&gt;&lt;a href=&quot;#UICollectionView-现在可以很容易的重排&quot; class=&quot;headerlink&quot; title=&quot;UICollectionView 现在可以很容易的重排&quot;&gt;&lt;/a&gt;UICollectionView 现在可以很容易的重排&lt;/h3&gt;&lt;p&gt;之前我把Reordering翻译成了排序，感觉不太适合，查了一下英文，应该叫重排，&lt;br&gt;&lt;img src=&quot;http://o6y686hwm.bkt.clouddn.com/recording.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;以下是译文&lt;/strong&gt;:&lt;/p&gt;
 &lt;p&gt;我特别喜欢&lt;code&gt;UICollectionView&lt;/code&gt;。UICollectionView比它的兄长&lt;code&gt;UITableView&lt;/code&gt;更加容易定制。现在我使用collection view的频率要比table view要多。在iOS 9中它排序更加容易(增加了一些API)。在之前的时候如果要实现排序的话要做很多的工作。接下来让我们来看一下API。你可以在&lt;a href=&quot;https://github.com/nshintio/uicollectionview-reordering&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;找到伴随的Xcode工程。&lt;/p&gt;
 &lt;p&gt;最简单的方式是使用&lt;code&gt;UICollectionViewController&lt;/code&gt;来添加排序操作。&lt;code&gt;UICollectionViewController&lt;/code&gt;现在有一个新的属性叫&lt;code&gt;installsStandardGestureForInteractiveMovement&lt;/code&gt;,这个属性增加了标准的手势来对单元格进行排序。这个属性默认是&lt;code&gt;true&lt;/code&gt;,这就意味着我们只要重写一个方法就可以对单元格进行重排了。&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;override func collectionView(collectionView: UICollectionView,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   moveItemAtIndexPath sourceIndexPath: NSIndexPath,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   toIndexPath destinationIndexPath: NSIndexPath) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   // move your data order&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;override func collectionView(collectionView: UICollectionView,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   	moveItemAtIndexPath sourceIndexPath: NSIndexPath,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   	toIndexPath destinationIndexPath: NSIndexPath) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   	// move your data order&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;视图中的collection view 推断单元格可以被移动，因为&lt;code&gt;moveItemAtIndexPath&lt;/code&gt;被重写了。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://o6y686hwm.bkt.clouddn.com/1.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;如果我们要使用&lt;code&gt;UIViewController&lt;/code&gt;和&lt;code&gt;collection view&lt;/code&gt;来实现单元格重排的话会变得稍微复杂一点。&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;override func viewDidLoad() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   super.viewDidLoad()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           longPressGesture = UILongPressGestureRecognizer(target: self, action: &amp;quot;handleLongGesture:&amp;quot;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       self.collectionView.addGestureRecognizer(longPressGesture)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   func handleLongGesture(gesture: UILongPressGestureRecognizer) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       switch(gesture.state) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       case UIGestureRecognizerState.Began:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           guard let selectedIndexPath = self.collectionView.indexPathForItemAtPoint(gesture.locationInView(self.collectionView)) else &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               break&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           collectionView.beginInteractiveMovementForItemAtIndexPath(selectedIndexPath)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       case UIGestureRecognizerState.Changed:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           collectionView.updateInteractiveMovementTargetPosition(gesture.locationInView(gesture.view!))&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       case UIGestureRecognizerState.Ended:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           collectionView.endInteractiveMovement()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       default:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           collectionView.cancelInteractiveMovement()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+&lt;p&gt;如果我们要使用&lt;code&gt;UIViewController&lt;/code&gt;和&lt;code&gt;collection view&lt;/code&gt;来实现单元格重排的话会变得稍微复杂一点。我们需要实现&lt;code&gt;UICollectionViewDataSource&lt;/code&gt;里面的方法，重写&lt;code&gt;installsStandardGestureForInteractiveMovement&lt;/code&gt;。不要担心，也很容易实现。&lt;code&gt;UILongPressGestureRecognizer&lt;/code&gt;是一个持续性的手势，支持拖拉。&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;override func viewDidLoad() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   	super.viewDidLoad()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       longPressGesture = UILongPressGestureRecognizer(target: self, action: &amp;quot;handleLongGesture:&amp;quot;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       self.collectionView.addGestureRecognizer(longPressGesture)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   func handleLongGesture(gesture: UILongPressGestureRecognizer) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       switch(gesture.state) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       case UIGestureRecognizerState.Began:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           guard let selectedIndexPath = self.collectionView.indexPathForItemAtPoint(gesture.locationInView(self.collectionView)) else &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;               break&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           collectionView.beginInteractiveMovementForItemAtIndexPath(selectedIndexPath)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       case UIGestureRecognizerState.Changed:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           collectionView.updateInteractiveMovementTargetPosition(gesture.locationInView(gesture.view!))&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       case UIGestureRecognizerState.Ended:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           collectionView.endInteractiveMovement()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       default:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           collectionView.cancelInteractiveMovement()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
     
     <summary type="html">
     
@@ -602,72 +703,6 @@
     
     
       <category term="nginx" scheme="http://yoursite.com/tags/nginx/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用LightSword来翻墙</title>
-    <link href="http://yoursite.com/2016/07/10/LightSword-setup/"/>
-    <id>http://yoursite.com/2016/07/10/LightSword-setup/</id>
-    <published>2016-07-10T13:54:20.000Z</published>
-    <updated>2016-07-16T16:24:59.000Z</updated>
-    
-    <content type="html">&lt;p&gt;LightSword是&lt;a href=&quot;https://github.com/UnsignedInt8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UnsignedInt8&lt;/a&gt;写的一个socks5代理，其实跟shadowsocks差不多，参考了shadowsocks的协议，用nodejs写的。可以直接上github上面看，&lt;a href=&quot;https://github.com/UnsignedInt8/LightSword&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LightSword&lt;/a&gt;。&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h3 id=&quot;LightSword&quot;&gt;&lt;a href=&quot;#LightSword&quot; class=&quot;headerlink&quot; title=&quot;LightSword&quot;&gt;&lt;/a&gt;LightSword&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;LightSword&lt;/li&gt;
-&lt;li&gt;安装&lt;/li&gt;
-&lt;li&gt;使用&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm install lightsword -g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;服务器端:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	lsserver -f&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;客户端:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	lslocal -s server_addr -f&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;中转站:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	lsbridge -s server_addr -f&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;然后设置本地电脑的socks5代理指向localhost:1080即可&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;LightSword是&lt;a href=&quot;https://github.com/UnsignedInt8&quot;&gt;UnsignedInt8&lt;/a&gt;写的一个socks5代理，其实跟shadowsocks差不多，参考了shadowsocks的协议，用nodejs写的。可以直接上github上面看，&lt;a href=&quot;https://github.com/UnsignedInt8/LightSword&quot;&gt;LightSword&lt;/a&gt;。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="lightsword" scheme="http://yoursite.com/tags/lightsword/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ngrok实现内网穿透</title>
-    <link href="http://yoursite.com/2016/07/10/ngrok-setup/"/>
-    <id>http://yoursite.com/2016/07/10/ngrok-setup/</id>
-    <published>2016-07-10T13:23:47.000Z</published>
-    <updated>2016-07-15T09:30:31.000Z</updated>
-    
-    <content type="html">&lt;h3 id=&quot;内网穿透&quot;&gt;&lt;a href=&quot;#内网穿透&quot; class=&quot;headerlink&quot; title=&quot;内网穿透&quot;&gt;&lt;/a&gt;内网穿透&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://o6y686hwm.bkt.clouddn.com/jinglingshu_2015-04-27_09-33-12.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;当我们想让别人访问搭建在自己机器上的http服务器时怎么办呢？IP地址是内网中的，外网根本访问不了，这时就需要一个外网ip，或者实现内网穿透。&lt;br&gt;需要go语言的环境，使用gvm来安装go和管理go的版本。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;安装gvm&lt;/li&gt;
-&lt;li&gt;安装go&lt;/li&gt;
-&lt;li&gt;clone ngrok&lt;/li&gt;
-&lt;li&gt;编译&lt;/li&gt;
-&lt;li&gt;安装ngrok&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;gvm&quot;&gt;&lt;a href=&quot;#gvm&quot; class=&quot;headerlink&quot; title=&quot;gvm&quot;&gt;&lt;/a&gt;gvm&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;bash &amp;lt; &amp;lt;(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;go&quot;&gt;&lt;a href=&quot;#go&quot; class=&quot;headerlink&quot; title=&quot;go&quot;&gt;&lt;/a&gt;go&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;这里要先使用二进制来安装1.4版本，然后再用源码安装1.5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gvm install go1.4 -B&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;clone-ngrok&quot;&gt;&lt;a href=&quot;#clone-ngrok&quot; class=&quot;headerlink&quot; title=&quot;clone ngrok&quot;&gt;&lt;/a&gt;clone ngrok&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;将ngrok的源码clone下来&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;https://github.com/inconshreveable/ngrok.git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;编译&quot;&gt;&lt;a href=&quot;#编译&quot; class=&quot;headerlink&quot; title=&quot;编译&quot;&gt;&lt;/a&gt;编译&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;//编译证书&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;NGROK_DOMAIN=&amp;quot;imququ.com&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;openssl genrsa -out base.key 2048&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;openssl req -new -x509 -nodes -key base.key -days 10000 -subj &amp;quot;/CN=$NGROK_DOMAIN&amp;quot; -out base.pem&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;openssl genrsa -out server.key 2048&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;openssl req -new -key server.key -subj &amp;quot;/CN=$NGROK_DOMAIN&amp;quot; -out server.csr&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;openssl x509 -req -in server.csr -CA base.pem -CAkey base.key -CAcreateserial -days 10000 -out server.crt&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cp base.pem assets/client/tls/ngrokroot.crt&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   //编译服务端&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;GOOS=linux GOARCH=amd64 make release-server&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;//切到go的源码目录执行&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;GOOS=darwin GOARCH=amd64 ./make.bash&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;//然后再切到ngrok的目录下&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;GOOS=darwin GOARCH=amd64 make release-client&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;在ngrok目录有一个bin目录，就是可执行文件，拷贝到目标机器即可.&lt;/p&gt;
-&lt;h3 id=&quot;安装ngrok&quot;&gt;&lt;a href=&quot;#安装ngrok&quot; class=&quot;headerlink&quot; title=&quot;安装ngrok&quot;&gt;&lt;/a&gt;安装ngrok&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;bin/ngrokd -domain=&amp;quot;$NGROK_DOMAIN&amp;quot; -httpAddr=&amp;quot;:8000&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;./ngrok -config=./ngrok.cfg -subdomain=test 80&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://imququ.com/post/self-hosted-ngrokd.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搭建 ngrok 服务实现内网穿透&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.ekan001.com/articles/38&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;自行编译ngrok服务端客户端，替代花生壳，跨平台&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.imooc.com/article/7457&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;分享一下在centos上搭建ngrok服务器的过程吧！&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://aevit.xyz/2016/03/31/ngrok/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用ngrok进行内网穿透&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://cjting.me/misc/2016-05-21-%E4%BD%BF%E7%94%A8Ngrok%E5%AE%9E%E7%8E%B0%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用Ngrok实现内网穿透&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;内网穿透&quot;&gt;&lt;a href=&quot;#内网穿透&quot; class=&quot;headerlink&quot; title=&quot;内网穿透&quot;&gt;&lt;/a&gt;内网穿透&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://o6y686hwm.bkt.clouddn.com/jinglingshu_2015-04
-    
-    </summary>
-    
-    
-      <category term="ngrok" scheme="http://yoursite.com/tags/ngrok/"/>
     
   </entry>
   
